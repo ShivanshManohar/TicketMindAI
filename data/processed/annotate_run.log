@@ -1,0 +1,471 @@
+2026-08-05 20:50:30,861 [INFO] Annotating 1/100 (row index 0)
+2026-08-05 20:50:31,416 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:31,508 [INFO] Annotating 2/100 (row index 1)
+2026-08-05 20:50:31,916 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:31,918 [INFO] Annotating 3/100 (row index 2)
+2026-08-05 20:50:32,162 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:32,175 [INFO] Annotating 4/100 (row index 3)
+2026-08-05 20:50:32,441 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:32,495 [INFO] Annotating 5/100 (row index 4)
+2026-08-05 20:50:32,842 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:32,891 [INFO] Annotating 6/100 (row index 5)
+2026-08-05 20:50:33,190 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:33,191 [INFO] Annotating 7/100 (row index 6)
+2026-08-05 20:50:33,559 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:33,563 [INFO] Annotating 8/100 (row index 7)
+2026-08-05 20:50:34,157 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:34,161 [INFO] Annotating 9/100 (row index 8)
+2026-08-05 20:50:34,555 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:34,557 [INFO] Annotating 10/100 (row index 9)
+2026-08-05 20:50:35,151 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:35,213 [INFO] Checkpoint saved: 10 annotations so far.
+2026-08-05 20:50:35,215 [INFO] Annotating 11/100 (row index 10)
+2026-08-05 20:50:35,705 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:35,708 [INFO] Annotating 12/100 (row index 11)
+2026-08-05 20:50:36,624 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:36,628 [INFO] Annotating 13/100 (row index 12)
+2026-08-05 20:50:37,002 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:37,006 [INFO] Annotating 14/100 (row index 13)
+2026-08-05 20:50:37,530 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:37,535 [INFO] Annotating 15/100 (row index 14)
+2026-08-05 20:50:37,936 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:50:37,937 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:50:40,457 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:40,469 [INFO] Annotating 16/100 (row index 15)
+2026-08-05 20:50:41,113 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:50:41,115 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:50:45,354 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:45,357 [INFO] Annotating 17/100 (row index 16)
+2026-08-05 20:50:45,945 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:50:45,947 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:50:50,742 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:50,745 [INFO] Annotating 18/100 (row index 17)
+2026-08-05 20:50:50,955 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:50:50,956 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:50:54,210 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:54,215 [INFO] Annotating 19/100 (row index 18)
+2026-08-05 20:50:54,822 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:50:54,823 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:50:59,265 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:50:59,270 [INFO] Annotating 20/100 (row index 19)
+2026-08-05 20:50:59,370 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:50:59,371 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:51:04,575 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:04,582 [INFO] Checkpoint saved: 20 annotations so far.
+2026-08-05 20:51:04,584 [INFO] Annotating 21/100 (row index 20)
+2026-08-05 20:51:04,835 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:04,835 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:51:08,127 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:08,135 [INFO] Annotating 22/100 (row index 21)
+2026-08-05 20:51:08,248 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:08,249 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:51:12,543 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:12,548 [INFO] Annotating 23/100 (row index 22)
+2026-08-05 20:51:12,625 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:12,654 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:51:17,107 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:17,110 [INFO] Annotating 24/100 (row index 23)
+2026-08-05 20:51:18,038 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:18,038 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:51:21,359 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:21,369 [INFO] Annotating 25/100 (row index 24)
+2026-08-05 20:51:21,601 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:21,602 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:51:26,912 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:26,913 [INFO] Annotating 26/100 (row index 25)
+2026-08-05 20:51:26,963 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:26,964 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:51:31,518 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:31,519 [INFO] Annotating 27/100 (row index 26)
+2026-08-05 20:51:31,659 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:31,660 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:51:35,165 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:35,168 [INFO] Annotating 28/100 (row index 27)
+2026-08-05 20:51:35,246 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:35,248 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:51:40,185 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:40,189 [INFO] Annotating 29/100 (row index 28)
+2026-08-05 20:51:41,163 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:41,163 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:51:44,611 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:44,614 [INFO] Annotating 30/100 (row index 29)
+2026-08-05 20:51:46,850 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:46,851 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:51:49,655 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:49,662 [INFO] Checkpoint saved: 30 annotations so far.
+2026-08-05 20:51:49,664 [INFO] Annotating 31/100 (row index 30)
+2026-08-05 20:51:50,538 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:50,539 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:51:55,177 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:55,179 [INFO] Annotating 32/100 (row index 31)
+2026-08-05 20:51:55,293 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:55,294 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:51:58,523 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:51:58,526 [INFO] Annotating 33/100 (row index 32)
+2026-08-05 20:51:58,790 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:51:58,790 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:52:03,567 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:03,568 [INFO] Annotating 34/100 (row index 33)
+2026-08-05 20:52:03,860 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:03,861 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:52:07,239 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:07,242 [INFO] Annotating 35/100 (row index 34)
+2026-08-05 20:52:07,386 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:07,387 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:52:12,976 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:12,982 [INFO] Annotating 36/100 (row index 35)
+2026-08-05 20:52:23,140 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:23,145 [INFO] Annotating 37/100 (row index 36)
+2026-08-05 20:52:24,621 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:24,624 [INFO] Annotating 38/100 (row index 37)
+2026-08-05 20:52:25,949 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:25,950 [INFO] Annotating 39/100 (row index 38)
+2026-08-05 20:52:26,031 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:26,032 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:52:31,187 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:31,190 [INFO] Annotating 40/100 (row index 39)
+2026-08-05 20:52:31,250 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:31,251 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:52:34,830 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:34,832 [INFO] Checkpoint saved: 40 annotations so far.
+2026-08-05 20:52:34,832 [INFO] Annotating 41/100 (row index 40)
+2026-08-05 20:52:35,922 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:35,924 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:52:39,931 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:39,932 [INFO] Annotating 42/100 (row index 41)
+2026-08-05 20:52:40,054 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:40,055 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:52:44,523 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:44,527 [INFO] Annotating 43/100 (row index 42)
+2026-08-05 20:52:44,640 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:44,642 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:52:48,076 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:48,079 [INFO] Annotating 44/100 (row index 43)
+2026-08-05 20:52:48,207 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:48,209 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:52:52,752 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:52,755 [INFO] Annotating 45/100 (row index 44)
+2026-08-05 20:52:53,590 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:53,591 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:52:59,066 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:52:59,071 [INFO] Annotating 46/100 (row index 45)
+2026-08-05 20:52:59,147 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:52:59,148 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:02,555 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:02,557 [INFO] Annotating 47/100 (row index 46)
+2026-08-05 20:53:03,047 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:03,047 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:10,840 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:10,842 [INFO] Annotating 48/100 (row index 47)
+2026-08-05 20:53:12,779 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:12,782 [INFO] Annotating 49/100 (row index 48)
+2026-08-05 20:53:13,061 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:13,061 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:53:16,077 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:16,082 [INFO] Annotating 50/100 (row index 49)
+2026-08-05 20:53:16,151 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:16,152 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:53:20,839 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:20,849 [INFO] Checkpoint saved: 50 annotations so far.
+2026-08-05 20:53:20,851 [INFO] Annotating 51/100 (row index 50)
+2026-08-05 20:53:21,575 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:21,577 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:24,912 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:24,916 [INFO] Annotating 52/100 (row index 51)
+2026-08-05 20:53:25,025 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:25,026 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:53:29,820 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:29,823 [INFO] Annotating 53/100 (row index 52)
+2026-08-05 20:53:30,361 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:30,362 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:34,147 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:34,148 [INFO] Annotating 54/100 (row index 53)
+2026-08-05 20:53:34,670 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:34,670 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:53:39,377 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:39,378 [INFO] Annotating 55/100 (row index 54)
+2026-08-05 20:53:39,610 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:39,610 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:44,703 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:44,706 [INFO] Annotating 56/100 (row index 55)
+2026-08-05 20:53:44,782 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:44,783 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:48,213 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:48,217 [INFO] Annotating 57/100 (row index 56)
+2026-08-05 20:53:49,416 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:49,417 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:53,134 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:53,137 [INFO] Annotating 58/100 (row index 57)
+2026-08-05 20:53:53,665 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:53,666 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:53:57,080 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:53:57,082 [INFO] Annotating 59/100 (row index 58)
+2026-08-05 20:53:57,179 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:53:57,180 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:54:02,120 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:02,121 [INFO] Annotating 60/100 (row index 59)
+2026-08-05 20:54:02,176 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:02,176 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:54:08,163 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:08,170 [INFO] Checkpoint saved: 60 annotations so far.
+2026-08-05 20:54:08,171 [INFO] Annotating 61/100 (row index 60)
+2026-08-05 20:54:08,414 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:08,415 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:54:11,304 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:11,308 [INFO] Annotating 62/100 (row index 61)
+2026-08-05 20:54:13,535 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:13,535 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:54:16,752 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:16,754 [INFO] Annotating 63/100 (row index 62)
+2026-08-05 20:54:21,608 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:21,609 [INFO] Annotating 64/100 (row index 63)
+2026-08-05 20:54:22,007 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:22,008 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:54:24,839 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:24,842 [INFO] Annotating 65/100 (row index 64)
+2026-08-05 20:54:26,568 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:26,569 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:54:30,306 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:30,309 [INFO] Annotating 66/100 (row index 65)
+2026-08-05 20:54:30,539 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:30,541 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:54:34,778 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:35,004 [INFO] Annotating 67/100 (row index 66)
+2026-08-05 20:54:35,995 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:35,996 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:54:38,970 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:38,974 [INFO] Annotating 68/100 (row index 67)
+2026-08-05 20:54:39,120 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:39,122 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:54:44,265 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:44,268 [INFO] Annotating 69/100 (row index 68)
+2026-08-05 20:54:44,455 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:44,457 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:54:47,469 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:47,473 [INFO] Annotating 70/100 (row index 69)
+2026-08-05 20:54:47,867 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:47,867 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:54:52,866 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:52,875 [INFO] Checkpoint saved: 70 annotations so far.
+2026-08-05 20:54:52,878 [INFO] Annotating 71/100 (row index 70)
+2026-08-05 20:54:53,612 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:53,613 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:54:56,206 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:54:56,219 [INFO] Annotating 72/100 (row index 71)
+2026-08-05 20:54:56,434 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:54:56,435 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:55:01,576 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:01,579 [INFO] Annotating 73/100 (row index 72)
+2026-08-05 20:55:01,677 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:01,678 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:55:05,079 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:05,276 [INFO] Annotating 74/100 (row index 73)
+2026-08-05 20:55:06,933 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:06,934 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:55:12,534 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:12,538 [INFO] Annotating 75/100 (row index 74)
+2026-08-05 20:55:12,783 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:12,784 [INFO] Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-05 20:55:15,175 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:15,178 [INFO] Annotating 76/100 (row index 75)
+2026-08-05 20:55:15,654 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:15,656 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:55:19,068 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:19,071 [INFO] Annotating 77/100 (row index 76)
+2026-08-05 20:55:19,134 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:19,135 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:55:24,105 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:24,106 [INFO] Annotating 78/100 (row index 77)
+2026-08-05 20:55:24,244 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:24,245 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-05 20:55:29,279 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:29,285 [INFO] Annotating 79/100 (row index 78)
+2026-08-05 20:55:29,520 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:29,522 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-05 20:55:33,188 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:55:33,190 [INFO] Annotating 80/100 (row index 79)
+2026-08-05 20:55:33,330 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:55:33,331 [INFO] Retrying request to /openai/v1/chat/completions in 51.000000 seconds
+2026-08-05 20:56:25,653 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-05 20:56:25,662 [INFO] Checkpoint saved: 80 annotations so far.
+2026-08-05 20:56:25,664 [INFO] Annotating 81/100 (row index 80)
+2026-08-05 20:56:26,201 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:26,202 [WARNING] Attempt 1/3 failed for ticket 'I need help cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99997, Requested 912. Please try again in 13m5.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:28,636 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:28,637 [WARNING] Attempt 2/3 failed for ticket 'I need help cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99994, Requested 945. Please try again in 13m31.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:32,832 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:32,832 [WARNING] Attempt 3/3 failed for ticket 'I need help cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99989, Requested 978. Please try again in 13m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:38,833 [ERROR] All retries exhausted for ticket 'I need help cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99989, Requested 978. Please try again in 13m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:38,834 [ERROR] Skipping row 80 after annotate() failure.
+2026-08-05 20:56:38,834 [INFO] Annotating 82/100 (row index 81)
+2026-08-05 20:56:39,771 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:39,771 [WARNING] Attempt 1/3 failed for ticket 'i want help to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99981, Requested 913. Please try again in 12m52.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:42,265 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:42,266 [WARNING] Attempt 2/3 failed for ticket 'i want help to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99978, Requested 946. Please try again in 13m18.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:46,437 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:46,438 [WARNING] Attempt 3/3 failed for ticket 'i want help to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99973, Requested 979. Please try again in 13m42.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:52,438 [ERROR] All retries exhausted for ticket 'i want help to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99973, Requested 979. Please try again in 13m42.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:52,438 [ERROR] Skipping row 81 after annotate() failure.
+2026-08-05 20:56:52,439 [INFO] Annotating 83/100 (row index 82)
+2026-08-05 20:56:53,900 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:53,901 [WARNING] Attempt 1/3 failed for ticket 'how do i cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99965, Requested 912. Please try again in 12m37.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:56:56,739 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:56:56,740 [WARNING] Attempt 2/3 failed for ticket 'how do i cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99961, Requested 945. Please try again in 13m2.784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:01,297 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:01,298 [WARNING] Attempt 3/3 failed for ticket 'how do i cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99956, Requested 978. Please try again in 13m26.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:07,298 [ERROR] All retries exhausted for ticket 'how do i cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99956, Requested 978. Please try again in 13m26.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:07,299 [ERROR] Skipping row 82 after annotate() failure.
+2026-08-05 20:57:07,300 [INFO] Annotating 84/100 (row index 83)
+2026-08-05 20:57:08,230 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:08,232 [WARNING] Attempt 1/3 failed for ticket 'I bought some articles, help me to cancel order {{Order Numb': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99948, Requested 917. Please try again in 12m27.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:10,721 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:10,723 [WARNING] Attempt 2/3 failed for ticket 'I bought some articles, help me to cancel order {{Order Numb': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99945, Requested 950. Please try again in 12m53.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:14,819 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:14,821 [WARNING] Attempt 3/3 failed for ticket 'I bought some articles, help me to cancel order {{Order Numb': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99941, Requested 983. Please try again in 13m18.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:20,822 [ERROR] All retries exhausted for ticket 'I bought some articles, help me to cancel order {{Order Numb': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99941, Requested 983. Please try again in 13m18.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:20,823 [ERROR] Skipping row 83 after annotate() failure.
+2026-08-05 20:57:20,824 [INFO] Annotating 85/100 (row index 84)
+2026-08-05 20:57:21,229 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:21,230 [WARNING] Attempt 1/3 failed for ticket 'where to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99933, Requested 911. Please try again in 12m9.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:23,959 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:23,961 [WARNING] Attempt 2/3 failed for ticket 'where to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99930, Requested 944. Please try again in 12m35.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:28,014 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:28,015 [WARNING] Attempt 3/3 failed for ticket 'where to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99925, Requested 977. Please try again in 12m59.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:34,016 [ERROR] All retries exhausted for ticket 'where to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99925, Requested 977. Please try again in 12m59.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:34,016 [ERROR] Skipping row 84 after annotate() failure.
+2026-08-05 20:57:34,018 [INFO] Annotating 86/100 (row index 85)
+2026-08-05 20:57:34,172 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:34,173 [WARNING] Attempt 1/3 failed for ticket 'I want help canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99918, Requested 913. Please try again in 11m57.983999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:36,468 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:36,469 [WARNING] Attempt 2/3 failed for ticket 'I want help canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99916, Requested 946. Please try again in 12m24.767999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:40,987 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:40,988 [WARNING] Attempt 3/3 failed for ticket 'I want help canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 979. Please try again in 12m48.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:46,989 [ERROR] All retries exhausted for ticket 'I want help canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 979. Please try again in 12m48.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:46,989 [ERROR] Skipping row 85 after annotate() failure.
+2026-08-05 20:57:46,991 [INFO] Annotating 87/100 (row index 86)
+2026-08-05 20:57:47,419 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:47,420 [WARNING] Attempt 1/3 failed for ticket 'I want help cancellkng purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99903, Requested 914. Please try again in 11m45.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:49,699 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:49,701 [WARNING] Attempt 2/3 failed for ticket 'I want help cancellkng purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99900, Requested 947. Please try again in 12m11.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:53,847 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:57:53,849 [WARNING] Attempt 3/3 failed for ticket 'I want help cancellkng purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99895, Requested 980. Please try again in 12m36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:59,850 [ERROR] All retries exhausted for ticket 'I want help cancellkng purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99895, Requested 980. Please try again in 12m36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:57:59,851 [ERROR] Skipping row 86 after annotate() failure.
+2026-08-05 20:57:59,851 [INFO] Annotating 88/100 (row index 87)
+2026-08-05 20:58:00,078 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:00,080 [WARNING] Attempt 1/3 failed for ticket 'I need help with cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99888, Requested 913. Please try again in 11m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:02,594 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:02,595 [WARNING] Attempt 2/3 failed for ticket 'I need help with cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99885, Requested 946. Please try again in 11m57.983999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:06,678 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:06,678 [WARNING] Attempt 3/3 failed for ticket 'I need help with cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99881, Requested 979. Please try again in 12m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:12,679 [ERROR] All retries exhausted for ticket 'I need help with cancelling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99881, Requested 979. Please try again in 12m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:12,683 [ERROR] Skipping row 87 after annotate() failure.
+2026-08-05 20:58:12,685 [INFO] Annotating 89/100 (row index 88)
+2026-08-05 20:58:13,228 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:13,229 [WARNING] Attempt 1/3 failed for ticket 'I want assistance to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99873, Requested 913. Please try again in 11m19.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:15,593 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:15,594 [WARNING] Attempt 2/3 failed for ticket 'I want assistance to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99870, Requested 946. Please try again in 11m45.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:19,695 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:19,695 [WARNING] Attempt 3/3 failed for ticket 'I want assistance to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99866, Requested 979. Please try again in 12m10.079999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:25,696 [ERROR] All retries exhausted for ticket 'I want assistance to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99866, Requested 979. Please try again in 12m10.079999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:25,697 [ERROR] Skipping row 88 after annotate() failure.
+2026-08-05 20:58:25,697 [INFO] Annotating 90/100 (row index 89)
+2026-08-05 20:58:26,379 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:26,380 [WARNING] Attempt 1/3 failed for ticket 'need assistance cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99858, Requested 911. Please try again in 11m4.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:28,564 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:28,568 [WARNING] Attempt 2/3 failed for ticket 'need assistance cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99855, Requested 944. Please try again in 11m30.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:32,731 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:32,733 [WARNING] Attempt 3/3 failed for ticket 'need assistance cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99850, Requested 977. Please try again in 11m54.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:38,734 [ERROR] All retries exhausted for ticket 'need assistance cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99850, Requested 977. Please try again in 11m54.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:38,734 [ERROR] Skipping row 89 after annotate() failure.
+2026-08-05 20:58:38,736 [INFO] Annotating 91/100 (row index 90)
+2026-08-05 20:58:39,003 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:39,004 [WARNING] Attempt 1/3 failed for ticket 'where can I cancel order {{Order Number}}?': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99843, Requested 913. Please try again in 10m53.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:41,173 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:41,175 [WARNING] Attempt 2/3 failed for ticket 'where can I cancel order {{Order Number}}?': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99841, Requested 946. Please try again in 11m19.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:46,071 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:58:46,072 [WARNING] Attempt 3/3 failed for ticket 'where can I cancel order {{Order Number}}?': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99836, Requested 979. Please try again in 11m44.16s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:52,074 [ERROR] All retries exhausted for ticket 'where can I cancel order {{Order Number}}?': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99836, Requested 979. Please try again in 11m44.16s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:58:52,074 [ERROR] Skipping row 90 after annotate() failure.
+2026-08-05 20:58:52,076 [INFO] Annotating 92/100 (row index 91)
+2026-08-05 20:59:12,005 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:12,006 [WARNING] Attempt 1/3 failed for ticket 'have problems with canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99805, Requested 913. Please try again in 10m20.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:15,505 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:15,507 [WARNING] Attempt 2/3 failed for ticket 'have problems with canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99801, Requested 946. Please try again in 10m45.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:20,462 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:20,463 [WARNING] Attempt 3/3 failed for ticket 'have problems with canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99796, Requested 979. Please try again in 11m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:26,464 [ERROR] All retries exhausted for ticket 'have problems with canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99796, Requested 979. Please try again in 11m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:26,465 [ERROR] Skipping row 91 after annotate() failure.
+2026-08-05 20:59:26,467 [INFO] Annotating 93/100 (row index 92)
+2026-08-05 20:59:27,188 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:27,189 [WARNING] Attempt 1/3 failed for ticket 'I can no longer pay for order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99787, Requested 914. Please try again in 10m5.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:29,262 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:29,264 [WARNING] Attempt 2/3 failed for ticket 'I can no longer pay for order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99785, Requested 947. Please try again in 10m32.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:33,333 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:33,333 [WARNING] Attempt 3/3 failed for ticket 'I can no longer pay for order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99780, Requested 980. Please try again in 10m56.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:39,334 [ERROR] All retries exhausted for ticket 'I can no longer pay for order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99780, Requested 980. Please try again in 10m56.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:39,334 [ERROR] Skipping row 92 after annotate() failure.
+2026-08-05 20:59:39,334 [INFO] Annotating 94/100 (row index 93)
+2026-08-05 20:59:41,656 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:41,662 [WARNING] Attempt 1/3 failed for ticket 'I would like to cancel purchase {{Order Number}}, I need hel': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99771, Requested 917. Please try again in 9m54.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:44,047 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:44,048 [WARNING] Attempt 2/3 failed for ticket 'I would like to cancel purchase {{Order Number}}, I need hel': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99768, Requested 950. Please try again in 10m20.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:48,883 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:48,883 [WARNING] Attempt 3/3 failed for ticket 'I would like to cancel purchase {{Order Number}}, I need hel': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99763, Requested 983. Please try again in 10m44.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:54,884 [ERROR] All retries exhausted for ticket 'I would like to cancel purchase {{Order Number}}, I need hel': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99763, Requested 983. Please try again in 10m44.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 20:59:54,885 [ERROR] Skipping row 93 after annotate() failure.
+2026-08-05 20:59:54,886 [INFO] Annotating 95/100 (row index 94)
+2026-08-05 20:59:56,672 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 20:59:56,674 [WARNING] Attempt 1/3 failed for ticket 'i do not know how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99754, Requested 915. Please try again in 9m38.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:00,959 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:00,960 [WARNING] Attempt 2/3 failed for ticket 'i do not know how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99748, Requested 948. Please try again in 10m1.344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:05,842 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:05,843 [WARNING] Attempt 3/3 failed for ticket 'i do not know how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99743, Requested 981. Please try again in 10m25.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:11,844 [ERROR] All retries exhausted for ticket 'i do not know how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99743, Requested 981. Please try again in 10m25.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:11,844 [ERROR] Skipping row 94 after annotate() failure.
+2026-08-05 21:00:11,845 [INFO] Annotating 96/100 (row index 95)
+2026-08-05 21:00:13,621 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:13,623 [WARNING] Attempt 1/3 failed for ticket 'help with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99735, Requested 911. Please try again in 9m18.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:15,702 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:15,702 [WARNING] Attempt 2/3 failed for ticket 'help with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99731, Requested 944. Please try again in 9m43.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:20,120 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:20,122 [WARNING] Attempt 3/3 failed for ticket 'help with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99726, Requested 977. Please try again in 10m7.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:26,123 [ERROR] All retries exhausted for ticket 'help with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99726, Requested 977. Please try again in 10m7.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:26,124 [ERROR] Skipping row 95 after annotate() failure.
+2026-08-05 21:00:26,126 [INFO] Annotating 97/100 (row index 96)
+2026-08-05 21:00:26,337 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:26,337 [WARNING] Attempt 1/3 failed for ticket 'I can no longer afford order {{Order Number}}, help me cance': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99719, Requested 918. Please try again in 9m10.367999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:29,227 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:29,228 [WARNING] Attempt 2/3 failed for ticket 'I can no longer afford order {{Order Number}}, help me cance': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99716, Requested 951. Please try again in 9m36.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:33,515 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:33,515 [WARNING] Attempt 3/3 failed for ticket 'I can no longer afford order {{Order Number}}, help me cance': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99711, Requested 984. Please try again in 10m0.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:39,516 [ERROR] All retries exhausted for ticket 'I can no longer afford order {{Order Number}}, help me cance': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99711, Requested 984. Please try again in 10m0.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:39,517 [ERROR] Skipping row 96 after annotate() failure.
+2026-08-05 21:00:39,518 [INFO] Annotating 98/100 (row index 97)
+2026-08-05 21:00:40,285 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:40,286 [WARNING] Attempt 1/3 failed for ticket 'need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99703, Requested 883. Please try again in 8m26.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:42,856 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:42,857 [WARNING] Attempt 2/3 failed for ticket 'need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99700, Requested 945. Please try again in 9m17.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:47,275 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:47,276 [WARNING] Attempt 3/3 failed for ticket 'need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99695, Requested 949. Please try again in 9m16.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:53,277 [ERROR] All retries exhausted for ticket 'need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99695, Requested 949. Please try again in 9m16.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:53,278 [ERROR] Skipping row 97 after annotate() failure.
+2026-08-05 21:00:53,279 [INFO] Annotating 99/100 (row index 98)
+2026-08-05 21:00:53,814 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:53,815 [WARNING] Attempt 1/3 failed for ticket 'I have problems with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99687, Requested 884. Please try again in 8m13.344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:00:55,932 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:00:55,933 [WARNING] Attempt 2/3 failed for ticket 'I have problems with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99685, Requested 946. Please try again in 9m5.183999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:00,096 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:01:00,097 [WARNING] Attempt 3/3 failed for ticket 'I have problems with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99680, Requested 950. Please try again in 9m4.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:06,098 [ERROR] All retries exhausted for ticket 'I have problems with cancelling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99680, Requested 950. Please try again in 9m4.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:06,099 [ERROR] Skipping row 98 after annotate() failure.
+2026-08-05 21:01:06,101 [INFO] Annotating 100/100 (row index 99)
+2026-08-05 21:01:08,244 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:01:08,245 [WARNING] Attempt 1/3 failed for ticket 'I want assistance canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99670, Requested 913. Please try again in 8m23.712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:10,354 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:01:10,355 [WARNING] Attempt 2/3 failed for ticket 'I want assistance canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99668, Requested 917. Please try again in 8m25.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:14,445 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-05 21:01:14,446 [WARNING] Attempt 3/3 failed for ticket 'I want assistance canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99663, Requested 950. Please try again in 8m49.631999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:20,447 [ERROR] All retries exhausted for ticket 'I want assistance canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99663, Requested 950. Please try again in 8m49.631999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-05 21:01:20,448 [ERROR] Skipping row 99 after annotate() failure.
+2026-08-05 21:01:20,460 [INFO] Finished. 80 annotated, 20 failed. Failures logged to data/processed/annotation_failures.json.
