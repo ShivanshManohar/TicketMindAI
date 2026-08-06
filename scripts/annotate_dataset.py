@@ -1,8 +1,8 @@
 import os
 import sys
 import json
+import time
 import logging
-import argparse
 
 sys.path.append(
     os.path.abspath(
@@ -12,12 +12,7 @@ sys.path.append(
 
 import pandas as pd
 
-from training.annotate import annotate
-
-# ---------------------------------------------------------------------------
-# Logging: failures go to a file so a crash or a bad batch is diagnosable
-# without re-reading terminal scrollback.
-# ---------------------------------------------------------------------------
+from training.annotate_batch import annotate_batch, BATCH_SIZE
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,106 +22,110 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
+
 logger = logging.getLogger("annotate_dataset")
 
-DATA_PATH = "data/processed/ticketmind_dataset.csv"
+DATASET_PATH = "data/processed/ticketmind_balanced.csv"
 OUTPUT_PATH = "data/processed/annotations.json"
-FAILURES_PATH = "data/processed/annotation_failures.json"
-CHECKPOINT_EVERY = 10  # save progress every N rows, not just at the end
+FAILURE_PATH = "data/processed/annotation_failures.json"
 
 
-def load_existing_results(path: str) -> list[dict]:
+def load_json(path):
+
     if not os.path.exists(path):
         return []
+
     with open(path, "r", encoding="utf-8") as f:
-        try:
-            return json.load(f)
-        except json.JSONDecodeError:
-            logger.warning("Existing %s is unreadable, starting fresh.", path)
-            return []
+        return json.load(f)
 
 
-def save_json(path: str, data: list[dict]) -> None:
+def save_json(path, data):
+
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(
+            data,
+            f,
+            indent=4,
+            ensure_ascii=False
+        )
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Annotate ticket dataset via LLM.")
-    parser.add_argument(
-                "--n",
-                type=int,
-                default=None,
-                help="Number of rows to annotate. Leave empty to process the entire dataset."
+
+    df = pd.read_csv(DATASET_PATH)
+
+    annotations = load_json(OUTPUT_PATH)
+
+    failures = load_json(FAILURE_PATH)
+
+    start = len(annotations)
+
+    logger.info("Starting from row %d", start)
+
+    while start < len(df):
+
+        end = min(start + BATCH_SIZE, len(df))
+
+        logger.info(
+            "Processing rows %d -> %d",
+            start,
+            end - 1
+        )
+
+        rows = df.iloc[start:end].to_dict("records")
+
+        success = False
+
+        for retry in range(10):
+
+            results = annotate_batch(rows)
+
+            if results is not None:
+
+                annotations.extend(results)
+
+                save_json(
+                    OUTPUT_PATH,
+                    annotations
+                )
+
+                logger.info(
+                    "Saved %d annotations",
+                    len(annotations)
+                )
+
+                success = True
+
+                break
+
+            logger.warning(
+                "Retry %d/10...",
+                retry + 1
             )
-    parser.add_argument("--start", type=int, default=0, help="Row index to start from.")
-    parser.add_argument(
-        "--resume", action="store_true",
-        help="Skip inputs already present in an existing annotations.json.",
-    )
-    args = parser.parse_args()
 
-    df = pd.read_csv(DATA_PATH)
-    if args.n is None:
-        subset = df.iloc[args.start:]
-    else:
-        subset = df.iloc[args.start: args.start + args.n]
+            time.sleep(45)
 
-    results = load_existing_results(OUTPUT_PATH) if args.resume else []
-    already_done = {
-        (r["input"], r["category"], r["subcategory"])
-        for r in results
-        if r.get("input")
-    }
+        if not success:
 
-    failures = load_existing_results(FAILURES_PATH) if args.resume else []
-
-    total = len(subset)
-    processed_since_checkpoint = 0
-
-    for i, (idx, row) in enumerate(subset.iterrows(), start=1):
-        ticket_input = row["input"]
-
-        if args.resume and (
-                ticket_input,
-                row["category"],
-                row["subcategory"]
-            ) in already_done:
-            logger.info("Skipping already-annotated row %d/%d (resume)", i, total)
-            continue
-
-        logger.info("Annotating %d/%d (row index %d)", i, total, idx)
-
-        result = annotate(ticket_input, row["category"], row["subcategory"])
-
-        if result is None:
-            logger.error("Skipping row %d after annotate() failure.", idx)
             failures.append({
-                "row_index": int(idx),
-                "input": ticket_input,
-                "category": row["category"],
-                "subcategory": row["subcategory"],
+
+                "start": start,
+
+                "end": end - 1
+
             })
-            continue
 
-        result["input"] = ticket_input
-        results.append(result)
-        processed_since_checkpoint += 1
+            save_json(
+                FAILURE_PATH,
+                failures
+            )
 
-        if processed_since_checkpoint >= CHECKPOINT_EVERY:
-            save_json(OUTPUT_PATH, results)
-            save_json(FAILURES_PATH, failures)
-            processed_since_checkpoint = 0
-            logger.info("Checkpoint saved: %d annotations so far.", len(results))
+        start = end
 
-    # final save
-    save_json(OUTPUT_PATH, results)
-    save_json(FAILURES_PATH, failures)
+        # Stay below Gemini free-tier RPM
+        time.sleep(5)
 
-    logger.info(
-        "Finished. %d annotated, %d failed. Failures logged to %s.",
-        len(results), len(failures), FAILURES_PATH,
-    )
+    logger.info("Annotation completed.")
 
 
 if __name__ == "__main__":

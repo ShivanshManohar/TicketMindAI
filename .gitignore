@@ -14,6 +14,7 @@ venv/
 .vscode/
 
 # Environment Variables
+.venv/
 .env
 
 # Model Files
@@ -31,3 +32,15 @@ ticketmind_lora/
 # OS
 .DS_Store
 Thumbs.db
+
+# Processed datasets
+data/processed/annotations.json
+data/processed/annotation_failures.json
+data/processed/train_chatml.json
+data/processed/ticketmind_balanced.csv
+
+# Model outputs
+outputs/
+lora_model/
+checkpoints/
+
