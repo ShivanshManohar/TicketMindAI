@@ -1,0 +1,72 @@
+[
+    {
+        "ticket": "I was charged twice for the same order.",
+        "expected": {
+            "category": "Order",
+            "subcategory": "Duplicate Charge"
+        }
+    },
+    {
+        "ticket": "How can I create a premium account?",
+        "expected": {
+            "category": "Account",
+            "subcategory": "Create Account"
+        }
+    },
+    {
+        "ticket": "My refund hasn't arrived yet.",
+        "expected": {
+            "category": "Payment",
+            "subcategory": "Refund"
+        }
+    },
+    {
+        "ticket": "I forgot my password.",
+        "expected": {
+            "category": "Account",
+            "subcategory": "Reset Password"
+        }
+    },
+    {
+        "ticket": "I need to cancel my order.",
+        "expected": {
+            "category": "Order",
+            "subcategory": "Cancel Order"
+        }
+    },
+    {
+        "ticket": "Someone hacked my account.",
+        "expected": {
+            "category": "Account",
+            "subcategory": "Account Compromised"
+        }
+    },
+    {
+        "ticket": "Where can I change my delivery address?",
+        "expected": {
+            "category": "Order",
+            "subcategory": "Update Address"
+        }
+    },
+    {
+        "ticket": "The payment failed three times.",
+        "expected": {
+            "category": "Payment",
+            "subcategory": "Payment Failure"
+        }
+    },
+    {
+        "ticket": "How do I delete my account?",
+        "expected": {
+            "category": "Account",
+            "subcategory": "Delete Account"
+        }
+    },
+    {
+        "ticket": "My order never arrived.",
+        "expected": {
+            "category": "Order",
+            "subcategory": "Delivery Issue"
+        }
+    }
+]

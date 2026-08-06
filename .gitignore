@@ -1,14 +1,33 @@
 # Python
-.venv/
 __pycache__/
+*.py[cod]
+*.pyo
 
-# Dataset outputs
-data/processed/*.csv
-data/processed/*.json
-data/annotated/
+# Virtual Environment
+.venv/
+venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment
+# VS Code
+.vscode/
+
+# Environment Variables
 .env
+
+# Model Files
+*.safetensors
+models/
+outputs/
+ticketmind_lora/
+
+# HuggingFace Cache
+.cache/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

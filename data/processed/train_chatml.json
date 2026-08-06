@@ -1,0 +1,962 @@
+[
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "question about cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks about cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i have a question about cancelling oorder {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks about cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i need help cancelling puchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I cannot afford this order, cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer cannot afford the order and requests cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "can you help me cancel order {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I can no longer afford order {{Order Number}}, cancel it"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer cannot afford order and requests cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I am trying to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have got to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i need help canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i dont know what to do to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have a problem with cancelling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer has issue cancelling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "problem with canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer has issue canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "can you help me canceling order {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "help  me canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "can you help me cancel purchase {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "what do I have to do to cancel purchase {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I bought the same item twice, cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel duplicate order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "need help with canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i want assistance canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i have problems with canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer has issues canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "assistance with cancelling pucrhase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "need help with canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "help cnceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i want assistance cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "need assistance cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "problem with cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer has issue cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "assistnace cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "have a problem with canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer has issue canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i need help with canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "want assistance to cancel order  {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i do not know how i can cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "need assistance to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I can no longer afford purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer can no longer afford the order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i need assistance canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I would like to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i do not want these article i try to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i need help to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "problems with cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer having issues cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need help canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "assistance canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "could ya help me cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "could you help me cancelling order {{Order Number}} ?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "cance order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "assistance cancelling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "assistance with canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "how to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "help me cancelling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "have a question about cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks about cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I can't afford purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer cannot afford the order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I ordered some item, cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i need help cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I can't afford order {{Order Number}}, help me cancelling it"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer cannot afford order and requests cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I do not know how I can cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I try to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I cannot pay for the last purchase I have made, cancel it"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer cannot pay and requests cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "could you help me cancel purchase {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I want to cancle purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "help me to cancel my  last goddamn purchase"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Negative\",\"summary\":\"Customer wants to cancel last purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have a problem witrh cancelling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer has issue cancelling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "can  uhelp me canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "problems with canceling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer having issues canceling purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need assistancde cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I bought some item, cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "need help with cancelling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help cancelling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I can't pay for this item, can I cancel order {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"HIGH\",\"sentiment\":\"Negative\",\"summary\":\"Customer cannot pay and requests cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need help cacneling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "where could I cancel purchase {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i bought some damn item help to cancep order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Negative\",\"summary\":\"Customer wants to cancel their order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "want assistance to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have got to cancel purchase {{Order Number}}, help me"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "whag do i need to do to cancel order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I want assistance canceling order {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer needs help canceling order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I want assistance to cancel purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "cancelling order"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "i want help cancelling purchase {{Order Number}}"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer wants to cancel purchase\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "what do I have to do to cancel order {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"LOW\",\"sentiment\":\"Neutral\",\"summary\":\"Customer asks how to cancel order\"}"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "can you help me to cancel purchase {{Order Number}}?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"category\":\"Order\",\"subcategory\":\"Cancel Order\",\"priority\":\"MEDIUM\",\"sentiment\":\"Neutral\",\"summary\":\"Customer requests order cancellation\"}"
+            }
+        ]
+    }
+]

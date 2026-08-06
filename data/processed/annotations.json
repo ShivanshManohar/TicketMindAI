@@ -1,0 +1,802 @@
+[
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks about cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "question about cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks about cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i have a question about cancelling oorder {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i need help cancelling puchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I need to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot afford the order and requests cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I cannot afford this order, cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "can you help me cancel order {{Order Number}}?"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot afford order and requests cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can no longer afford order {{Order Number}}, cancel it"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I am trying to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I have got to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i need help canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i dont know what to do to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issue cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I have a problem with cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issue canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "problem with canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "can you help me canceling order {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "help  me canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "can you help me cancel purchase {{Order Number}}?"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "what do I have to do to cancel purchase {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel duplicate order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I bought the same item twice, cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need help with canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i want assistance canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I'm trying to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issues canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i have problems with canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "assistance with cancelling pucrhase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need help with canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "help cnceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i want assistance cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need assistance cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issue cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "problem with cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "assistnace cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issue canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "have a problem with canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i need help with canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "want assistance to cancel order  {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i do not know how i can cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need assistance to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer can no longer afford the order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can no longer afford purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i need assistance canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I would like to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i do not want these article i try to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i need help to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issues cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "problems with cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I need help canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "assistance canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "could ya help me cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "could you help me cancelling order {{Order Number}} ?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "cance order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "assistance cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "assistance with canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "canceling order {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "how to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "help me cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks about cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "have a question about cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot afford the order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can't afford purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I ordered some item, cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i need help cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot afford order and requests cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can't afford order {{Order Number}}, help me cancelling it"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I do not know how I can cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I try to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot pay and requests cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I cannot pay for the last purchase I have made, cancel it"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "could you help me cancel purchase {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want to cancle purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Negative",
+        "summary": "Customer wants to cancel last purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "help me to cancel my  last goddamn purchase"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issue cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I have a problem witrh cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "can  uhelp me canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer having issues canceling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "problems with canceling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I need assistancde cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I bought some item, cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need help with cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot pay and requests cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can't pay for this item, can I cancel order {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I need help cacneling order {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "where could I cancel purchase {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Negative",
+        "summary": "Customer wants to cancel their order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i bought some damn item help to cancep order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "want assistance to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I have got to cancel purchase {{Order Number}}, help me"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "whag do i need to do to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want assistance canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want assistance to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "cancelling order"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i want help cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "what do I have to do to cancel order {{Order Number}}?"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "can you help me to cancel purchase {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I need help cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i want help to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "how do i cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I bought some articles, help me to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "where to cancel purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want help canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want help cancellkng purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I need help with cancelling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer wants to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want assistance to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need assistance cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer asks how to cancel order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "where can I cancel order {{Order Number}}?"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issues canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "have problems with canceling order {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer can no longer pay for the order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can no longer pay for order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help to cancel purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I would like to cancel purchase {{Order Number}}, I need help"
+    },
+    {
+        "priority": "LOW",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help with order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "i do not know how to cancel order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "help with cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "HIGH",
+        "sentiment": "Negative",
+        "summary": "Customer cannot afford order and requests cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I can no longer afford order {{Order Number}}, help me cancel it"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer needs help canceling order",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "need assistance canceling order {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer has issues cancelling purchase",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I have problems with cancelling purchase {{Order Number}}"
+    },
+    {
+        "priority": "MEDIUM",
+        "sentiment": "Neutral",
+        "summary": "Customer requests order cancellation",
+        "category": "Order",
+        "subcategory": "Cancel Order",
+        "input": "I want assistance canceling purchase {{Order Number}}"
+    }
+]

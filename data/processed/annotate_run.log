@@ -469,3 +469,659 @@
 2026-08-05 21:01:20,447 [ERROR] All retries exhausted for ticket 'I want assistance canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99663, Requested 950. Please try again in 8m49.631999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
 2026-08-05 21:01:20,448 [ERROR] Skipping row 99 after annotate() failure.
 2026-08-05 21:01:20,460 [INFO] Finished. 80 annotated, 20 failed. Failures logged to data/processed/annotation_failures.json.
+2026-08-06 23:23:48,779 [INFO] Annotating 1/100 (row index 0)
+2026-08-06 23:23:49,295 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:49,400 [INFO] Annotating 2/100 (row index 1)
+2026-08-06 23:23:49,777 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:49,780 [INFO] Annotating 3/100 (row index 2)
+2026-08-06 23:23:50,185 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:50,191 [INFO] Annotating 4/100 (row index 3)
+2026-08-06 23:23:50,482 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:50,510 [INFO] Annotating 5/100 (row index 4)
+2026-08-06 23:23:50,974 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:50,978 [INFO] Annotating 6/100 (row index 5)
+2026-08-06 23:23:51,282 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:51,288 [INFO] Annotating 7/100 (row index 6)
+2026-08-06 23:23:51,540 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:51,543 [INFO] Annotating 8/100 (row index 7)
+2026-08-06 23:23:51,860 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:51,874 [INFO] Annotating 9/100 (row index 8)
+2026-08-06 23:23:52,204 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:52,208 [INFO] Annotating 10/100 (row index 9)
+2026-08-06 23:23:52,682 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:52,744 [INFO] Checkpoint saved: 10 annotations so far.
+2026-08-06 23:23:52,745 [INFO] Annotating 11/100 (row index 10)
+2026-08-06 23:23:53,109 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:53,110 [INFO] Annotating 12/100 (row index 11)
+2026-08-06 23:23:53,511 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:53,514 [INFO] Annotating 13/100 (row index 12)
+2026-08-06 23:23:53,977 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:53,981 [INFO] Annotating 14/100 (row index 13)
+2026-08-06 23:23:54,308 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:54,312 [INFO] Annotating 15/100 (row index 14)
+2026-08-06 23:23:54,444 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:23:54,445 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:23:58,667 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:23:58,672 [INFO] Annotating 16/100 (row index 15)
+2026-08-06 23:23:58,774 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:23:58,775 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:02,991 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:02,995 [INFO] Annotating 17/100 (row index 16)
+2026-08-06 23:24:03,062 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:03,064 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:07,393 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:07,395 [INFO] Annotating 18/100 (row index 17)
+2026-08-06 23:24:07,477 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:07,478 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:11,863 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:11,867 [INFO] Annotating 19/100 (row index 18)
+2026-08-06 23:24:11,939 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:11,941 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:16,213 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:16,214 [INFO] Annotating 20/100 (row index 19)
+2026-08-06 23:24:16,276 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:16,277 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:24:21,725 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:21,731 [INFO] Checkpoint saved: 20 annotations so far.
+2026-08-06 23:24:21,732 [INFO] Annotating 21/100 (row index 20)
+2026-08-06 23:24:21,785 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:21,787 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:26,117 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:26,121 [INFO] Annotating 22/100 (row index 21)
+2026-08-06 23:24:26,182 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:26,184 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:30,670 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:30,672 [INFO] Annotating 23/100 (row index 22)
+2026-08-06 23:24:30,727 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:30,728 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:35,037 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:35,040 [INFO] Annotating 24/100 (row index 23)
+2026-08-06 23:24:35,101 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:35,103 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:39,405 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:39,406 [INFO] Annotating 25/100 (row index 24)
+2026-08-06 23:24:39,516 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:39,516 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:43,726 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:43,727 [INFO] Annotating 26/100 (row index 25)
+2026-08-06 23:24:43,778 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:43,778 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:24:49,238 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:49,244 [INFO] Annotating 27/100 (row index 26)
+2026-08-06 23:24:49,310 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:49,312 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:53,535 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:53,539 [INFO] Annotating 28/100 (row index 27)
+2026-08-06 23:24:53,612 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:53,662 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:24:57,880 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:24:57,883 [INFO] Annotating 29/100 (row index 28)
+2026-08-06 23:24:57,964 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:24:57,966 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:02,346 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:02,350 [INFO] Annotating 30/100 (row index 29)
+2026-08-06 23:25:02,412 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:02,413 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:06,779 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:06,784 [INFO] Checkpoint saved: 30 annotations so far.
+2026-08-06 23:25:06,785 [INFO] Annotating 31/100 (row index 30)
+2026-08-06 23:25:06,881 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:06,882 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:11,156 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:11,160 [INFO] Annotating 32/100 (row index 31)
+2026-08-06 23:25:11,227 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:11,229 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:25:16,733 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:16,734 [INFO] Annotating 33/100 (row index 32)
+2026-08-06 23:25:16,818 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:16,839 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:21,080 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:21,084 [INFO] Annotating 34/100 (row index 33)
+2026-08-06 23:25:21,167 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:21,169 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:25,435 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:25,441 [INFO] Annotating 35/100 (row index 34)
+2026-08-06 23:25:25,595 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:25,597 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:29,866 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:29,869 [INFO] Annotating 36/100 (row index 35)
+2026-08-06 23:25:29,950 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:29,952 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:34,234 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:34,236 [INFO] Annotating 37/100 (row index 36)
+2026-08-06 23:25:34,291 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:34,292 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:38,737 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:38,742 [INFO] Annotating 38/100 (row index 37)
+2026-08-06 23:25:39,143 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:39,144 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:43,648 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:43,649 [INFO] Annotating 39/100 (row index 38)
+2026-08-06 23:25:43,790 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:43,792 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:48,114 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:48,115 [INFO] Annotating 40/100 (row index 39)
+2026-08-06 23:25:48,176 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:48,219 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:52,604 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:52,611 [INFO] Checkpoint saved: 40 annotations so far.
+2026-08-06 23:25:52,613 [INFO] Annotating 41/100 (row index 40)
+2026-08-06 23:25:52,808 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:52,810 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:25:57,028 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:25:57,030 [INFO] Annotating 42/100 (row index 41)
+2026-08-06 23:25:57,288 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:25:57,289 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:01,642 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:01,645 [INFO] Annotating 43/100 (row index 42)
+2026-08-06 23:26:01,782 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:01,783 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:06,141 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:06,142 [INFO] Annotating 44/100 (row index 43)
+2026-08-06 23:26:06,221 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:06,222 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:10,455 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:10,459 [INFO] Annotating 45/100 (row index 44)
+2026-08-06 23:26:10,537 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:10,538 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:26:16,568 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:16,572 [INFO] Annotating 46/100 (row index 45)
+2026-08-06 23:26:17,330 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:17,331 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-06 23:26:20,647 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:20,649 [INFO] Annotating 47/100 (row index 46)
+2026-08-06 23:26:20,779 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:20,779 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-06 23:26:24,151 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:24,154 [INFO] Annotating 48/100 (row index 47)
+2026-08-06 23:26:24,390 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:24,391 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:28,645 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:28,647 [INFO] Annotating 49/100 (row index 48)
+2026-08-06 23:26:28,718 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:28,719 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:26:34,853 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:34,854 [INFO] Annotating 50/100 (row index 49)
+2026-08-06 23:26:34,919 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:34,920 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-06 23:26:38,295 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:38,302 [INFO] Checkpoint saved: 50 annotations so far.
+2026-08-06 23:26:38,303 [INFO] Annotating 51/100 (row index 50)
+2026-08-06 23:26:38,385 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:38,386 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:42,757 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:42,758 [INFO] Annotating 52/100 (row index 51)
+2026-08-06 23:26:42,814 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:42,815 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:47,042 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:47,043 [INFO] Annotating 53/100 (row index 52)
+2026-08-06 23:26:47,097 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:47,097 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:26:51,414 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:51,415 [INFO] Annotating 54/100 (row index 53)
+2026-08-06 23:26:51,521 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:51,521 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:26:57,267 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:26:57,271 [INFO] Annotating 55/100 (row index 54)
+2026-08-06 23:26:57,377 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:26:57,378 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-06 23:27:00,646 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:00,648 [INFO] Annotating 56/100 (row index 55)
+2026-08-06 23:27:00,861 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:00,861 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:05,158 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:05,160 [INFO] Annotating 57/100 (row index 56)
+2026-08-06 23:27:05,290 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:05,291 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:27:10,770 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:10,775 [INFO] Annotating 58/100 (row index 57)
+2026-08-06 23:27:10,887 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:10,888 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:15,083 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:15,087 [INFO] Annotating 59/100 (row index 58)
+2026-08-06 23:27:15,137 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:15,138 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:19,527 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:19,531 [INFO] Annotating 60/100 (row index 59)
+2026-08-06 23:27:19,891 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:19,892 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:24,196 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:24,204 [INFO] Checkpoint saved: 60 annotations so far.
+2026-08-06 23:27:24,205 [INFO] Annotating 61/100 (row index 60)
+2026-08-06 23:27:24,332 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:24,334 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:28,597 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:28,601 [INFO] Annotating 62/100 (row index 61)
+2026-08-06 23:27:28,660 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:28,662 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:32,988 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:32,991 [INFO] Annotating 63/100 (row index 62)
+2026-08-06 23:27:33,117 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:33,119 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:37,745 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:37,749 [INFO] Annotating 64/100 (row index 63)
+2026-08-06 23:27:37,799 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:37,801 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:42,148 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:42,151 [INFO] Annotating 65/100 (row index 64)
+2026-08-06 23:27:42,237 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:42,243 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:46,572 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:46,578 [INFO] Annotating 66/100 (row index 65)
+2026-08-06 23:27:46,660 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:46,661 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:27:50,984 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:50,986 [INFO] Annotating 67/100 (row index 66)
+2026-08-06 23:27:51,035 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:51,036 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:27:56,462 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:27:56,463 [INFO] Annotating 68/100 (row index 67)
+2026-08-06 23:27:56,554 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:27:56,555 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:00,943 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:00,944 [INFO] Annotating 69/100 (row index 68)
+2026-08-06 23:28:01,046 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:01,062 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:05,411 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:05,414 [INFO] Annotating 70/100 (row index 69)
+2026-08-06 23:28:05,507 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:05,508 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:09,861 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:09,869 [INFO] Checkpoint saved: 70 annotations so far.
+2026-08-06 23:28:09,871 [INFO] Annotating 71/100 (row index 70)
+2026-08-06 23:28:09,921 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:09,922 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:14,254 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:14,257 [INFO] Annotating 72/100 (row index 71)
+2026-08-06 23:28:14,332 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:14,334 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:18,885 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:18,886 [INFO] Annotating 73/100 (row index 72)
+2026-08-06 23:28:18,987 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:18,989 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:23,279 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:23,283 [INFO] Annotating 74/100 (row index 73)
+2026-08-06 23:28:23,338 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:23,340 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:27,646 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:27,647 [INFO] Annotating 75/100 (row index 74)
+2026-08-06 23:28:27,708 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:27,708 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:32,015 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:32,016 [INFO] Annotating 76/100 (row index 75)
+2026-08-06 23:28:32,064 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:32,064 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:28:37,525 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:37,527 [INFO] Annotating 77/100 (row index 76)
+2026-08-06 23:28:37,586 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:37,587 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:41,787 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:41,789 [INFO] Annotating 78/100 (row index 77)
+2026-08-06 23:28:41,841 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:41,841 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:46,081 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:46,084 [INFO] Annotating 79/100 (row index 78)
+2026-08-06 23:28:46,143 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:46,144 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:28:50,369 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:50,370 [INFO] Annotating 80/100 (row index 79)
+2026-08-06 23:28:50,426 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:50,426 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:28:55,751 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:28:55,779 [INFO] Checkpoint saved: 80 annotations so far.
+2026-08-06 23:28:55,779 [INFO] Annotating 81/100 (row index 80)
+2026-08-06 23:28:55,844 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:28:55,845 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:00,067 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:00,081 [INFO] Annotating 82/100 (row index 81)
+2026-08-06 23:29:00,146 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:00,146 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:04,417 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:04,426 [INFO] Annotating 83/100 (row index 82)
+2026-08-06 23:29:04,540 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:04,541 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:08,881 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:08,892 [INFO] Annotating 84/100 (row index 83)
+2026-08-06 23:29:08,975 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:08,976 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:13,283 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:13,284 [INFO] Annotating 85/100 (row index 84)
+2026-08-06 23:29:13,348 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:13,348 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:17,570 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:17,579 [INFO] Annotating 86/100 (row index 85)
+2026-08-06 23:29:17,636 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:17,637 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:29:23,051 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:23,053 [INFO] Annotating 87/100 (row index 86)
+2026-08-06 23:29:23,106 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:23,107 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:27,396 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:27,398 [INFO] Annotating 88/100 (row index 87)
+2026-08-06 23:29:27,453 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:27,454 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:31,666 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:31,669 [INFO] Annotating 89/100 (row index 88)
+2026-08-06 23:29:31,728 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:31,729 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:36,050 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:36,053 [INFO] Annotating 90/100 (row index 89)
+2026-08-06 23:29:36,113 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:36,115 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:40,455 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:40,458 [INFO] Checkpoint saved: 90 annotations so far.
+2026-08-06 23:29:40,459 [INFO] Annotating 91/100 (row index 90)
+2026-08-06 23:29:40,517 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:40,517 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:29:45,848 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:45,852 [INFO] Annotating 92/100 (row index 91)
+2026-08-06 23:29:45,922 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:45,924 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:50,147 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:50,148 [INFO] Annotating 93/100 (row index 92)
+2026-08-06 23:29:50,200 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:50,200 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:54,399 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:54,400 [INFO] Annotating 94/100 (row index 93)
+2026-08-06 23:29:54,445 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:54,445 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:29:58,649 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:29:58,650 [INFO] Annotating 95/100 (row index 94)
+2026-08-06 23:29:58,692 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:29:58,692 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-08-06 23:30:04,943 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:30:04,945 [INFO] Annotating 96/100 (row index 95)
+2026-08-06 23:30:04,987 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:30:04,988 [INFO] Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-06 23:30:08,603 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:30:08,605 [INFO] Annotating 97/100 (row index 96)
+2026-08-06 23:30:08,649 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:30:08,649 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:30:13,212 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:30:13,214 [INFO] Annotating 98/100 (row index 97)
+2026-08-06 23:30:13,264 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:30:13,264 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:30:17,959 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:30:17,960 [INFO] Annotating 99/100 (row index 98)
+2026-08-06 23:30:18,003 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:30:18,041 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:30:22,278 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:30:22,279 [INFO] Annotating 100/100 (row index 99)
+2026-08-06 23:30:22,321 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:30:22,321 [INFO] Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-06 23:30:26,521 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:30:26,523 [INFO] Checkpoint saved: 100 annotations so far.
+2026-08-06 23:30:26,525 [INFO] Finished. 100 annotated, 0 failed. Failures logged to data/processed/annotation_failures.json.
+2026-08-06 23:42:07,835 [INFO] Skipping already-annotated row 1/24635 (resume)
+2026-08-06 23:42:07,836 [INFO] Skipping already-annotated row 2/24635 (resume)
+2026-08-06 23:42:07,836 [INFO] Skipping already-annotated row 3/24635 (resume)
+2026-08-06 23:42:07,837 [INFO] Skipping already-annotated row 4/24635 (resume)
+2026-08-06 23:42:07,837 [INFO] Skipping already-annotated row 5/24635 (resume)
+2026-08-06 23:42:07,837 [INFO] Skipping already-annotated row 6/24635 (resume)
+2026-08-06 23:42:07,838 [INFO] Skipping already-annotated row 7/24635 (resume)
+2026-08-06 23:42:07,839 [INFO] Skipping already-annotated row 8/24635 (resume)
+2026-08-06 23:42:07,839 [INFO] Skipping already-annotated row 9/24635 (resume)
+2026-08-06 23:42:07,840 [INFO] Skipping already-annotated row 10/24635 (resume)
+2026-08-06 23:42:07,840 [INFO] Skipping already-annotated row 11/24635 (resume)
+2026-08-06 23:42:07,840 [INFO] Skipping already-annotated row 12/24635 (resume)
+2026-08-06 23:42:07,841 [INFO] Skipping already-annotated row 13/24635 (resume)
+2026-08-06 23:42:07,842 [INFO] Skipping already-annotated row 14/24635 (resume)
+2026-08-06 23:42:07,842 [INFO] Skipping already-annotated row 15/24635 (resume)
+2026-08-06 23:42:07,843 [INFO] Skipping already-annotated row 16/24635 (resume)
+2026-08-06 23:42:07,843 [INFO] Skipping already-annotated row 17/24635 (resume)
+2026-08-06 23:42:07,843 [INFO] Skipping already-annotated row 18/24635 (resume)
+2026-08-06 23:42:07,844 [INFO] Skipping already-annotated row 19/24635 (resume)
+2026-08-06 23:42:07,844 [INFO] Skipping already-annotated row 20/24635 (resume)
+2026-08-06 23:42:07,845 [INFO] Skipping already-annotated row 21/24635 (resume)
+2026-08-06 23:42:07,845 [INFO] Skipping already-annotated row 22/24635 (resume)
+2026-08-06 23:42:07,846 [INFO] Skipping already-annotated row 23/24635 (resume)
+2026-08-06 23:42:07,848 [INFO] Skipping already-annotated row 24/24635 (resume)
+2026-08-06 23:42:07,848 [INFO] Skipping already-annotated row 25/24635 (resume)
+2026-08-06 23:42:07,849 [INFO] Skipping already-annotated row 26/24635 (resume)
+2026-08-06 23:42:07,850 [INFO] Skipping already-annotated row 27/24635 (resume)
+2026-08-06 23:42:07,850 [INFO] Skipping already-annotated row 28/24635 (resume)
+2026-08-06 23:42:07,850 [INFO] Skipping already-annotated row 29/24635 (resume)
+2026-08-06 23:42:07,850 [INFO] Skipping already-annotated row 30/24635 (resume)
+2026-08-06 23:42:07,851 [INFO] Skipping already-annotated row 31/24635 (resume)
+2026-08-06 23:42:07,852 [INFO] Skipping already-annotated row 32/24635 (resume)
+2026-08-06 23:42:07,852 [INFO] Skipping already-annotated row 33/24635 (resume)
+2026-08-06 23:42:07,854 [INFO] Skipping already-annotated row 34/24635 (resume)
+2026-08-06 23:42:07,855 [INFO] Skipping already-annotated row 35/24635 (resume)
+2026-08-06 23:42:07,856 [INFO] Skipping already-annotated row 36/24635 (resume)
+2026-08-06 23:42:07,857 [INFO] Skipping already-annotated row 37/24635 (resume)
+2026-08-06 23:42:07,859 [INFO] Skipping already-annotated row 38/24635 (resume)
+2026-08-06 23:42:07,860 [INFO] Skipping already-annotated row 39/24635 (resume)
+2026-08-06 23:42:07,860 [INFO] Skipping already-annotated row 40/24635 (resume)
+2026-08-06 23:42:07,861 [INFO] Skipping already-annotated row 41/24635 (resume)
+2026-08-06 23:42:07,861 [INFO] Skipping already-annotated row 42/24635 (resume)
+2026-08-06 23:42:07,862 [INFO] Skipping already-annotated row 43/24635 (resume)
+2026-08-06 23:42:07,862 [INFO] Skipping already-annotated row 44/24635 (resume)
+2026-08-06 23:42:07,863 [INFO] Skipping already-annotated row 45/24635 (resume)
+2026-08-06 23:42:07,863 [INFO] Skipping already-annotated row 46/24635 (resume)
+2026-08-06 23:42:07,864 [INFO] Skipping already-annotated row 47/24635 (resume)
+2026-08-06 23:42:07,864 [INFO] Skipping already-annotated row 48/24635 (resume)
+2026-08-06 23:42:07,864 [INFO] Skipping already-annotated row 49/24635 (resume)
+2026-08-06 23:42:07,865 [INFO] Skipping already-annotated row 50/24635 (resume)
+2026-08-06 23:42:07,865 [INFO] Skipping already-annotated row 51/24635 (resume)
+2026-08-06 23:42:07,867 [INFO] Skipping already-annotated row 52/24635 (resume)
+2026-08-06 23:42:07,868 [INFO] Skipping already-annotated row 53/24635 (resume)
+2026-08-06 23:42:07,869 [INFO] Skipping already-annotated row 54/24635 (resume)
+2026-08-06 23:42:07,870 [INFO] Skipping already-annotated row 55/24635 (resume)
+2026-08-06 23:42:07,871 [INFO] Skipping already-annotated row 56/24635 (resume)
+2026-08-06 23:42:07,871 [INFO] Skipping already-annotated row 57/24635 (resume)
+2026-08-06 23:42:07,873 [INFO] Skipping already-annotated row 58/24635 (resume)
+2026-08-06 23:42:07,874 [INFO] Skipping already-annotated row 59/24635 (resume)
+2026-08-06 23:42:07,875 [INFO] Skipping already-annotated row 60/24635 (resume)
+2026-08-06 23:42:07,875 [INFO] Skipping already-annotated row 61/24635 (resume)
+2026-08-06 23:42:07,876 [INFO] Skipping already-annotated row 62/24635 (resume)
+2026-08-06 23:42:07,877 [INFO] Skipping already-annotated row 63/24635 (resume)
+2026-08-06 23:42:07,879 [INFO] Skipping already-annotated row 64/24635 (resume)
+2026-08-06 23:42:07,880 [INFO] Skipping already-annotated row 65/24635 (resume)
+2026-08-06 23:42:07,880 [INFO] Skipping already-annotated row 66/24635 (resume)
+2026-08-06 23:42:07,881 [INFO] Skipping already-annotated row 67/24635 (resume)
+2026-08-06 23:42:07,882 [INFO] Skipping already-annotated row 68/24635 (resume)
+2026-08-06 23:42:07,882 [INFO] Skipping already-annotated row 69/24635 (resume)
+2026-08-06 23:42:07,883 [INFO] Skipping already-annotated row 70/24635 (resume)
+2026-08-06 23:42:07,884 [INFO] Skipping already-annotated row 71/24635 (resume)
+2026-08-06 23:42:07,884 [INFO] Skipping already-annotated row 72/24635 (resume)
+2026-08-06 23:42:07,885 [INFO] Skipping already-annotated row 73/24635 (resume)
+2026-08-06 23:42:07,885 [INFO] Skipping already-annotated row 74/24635 (resume)
+2026-08-06 23:42:07,885 [INFO] Skipping already-annotated row 75/24635 (resume)
+2026-08-06 23:42:07,886 [INFO] Skipping already-annotated row 76/24635 (resume)
+2026-08-06 23:42:07,886 [INFO] Skipping already-annotated row 77/24635 (resume)
+2026-08-06 23:42:07,887 [INFO] Skipping already-annotated row 78/24635 (resume)
+2026-08-06 23:42:07,887 [INFO] Skipping already-annotated row 79/24635 (resume)
+2026-08-06 23:42:07,888 [INFO] Skipping already-annotated row 80/24635 (resume)
+2026-08-06 23:42:07,889 [INFO] Skipping already-annotated row 81/24635 (resume)
+2026-08-06 23:42:07,891 [INFO] Skipping already-annotated row 82/24635 (resume)
+2026-08-06 23:42:07,891 [INFO] Skipping already-annotated row 83/24635 (resume)
+2026-08-06 23:42:07,892 [INFO] Skipping already-annotated row 84/24635 (resume)
+2026-08-06 23:42:07,892 [INFO] Skipping already-annotated row 85/24635 (resume)
+2026-08-06 23:42:07,893 [INFO] Skipping already-annotated row 86/24635 (resume)
+2026-08-06 23:42:07,893 [INFO] Skipping already-annotated row 87/24635 (resume)
+2026-08-06 23:42:07,893 [INFO] Skipping already-annotated row 88/24635 (resume)
+2026-08-06 23:42:07,894 [INFO] Skipping already-annotated row 89/24635 (resume)
+2026-08-06 23:42:07,894 [INFO] Skipping already-annotated row 90/24635 (resume)
+2026-08-06 23:42:07,895 [INFO] Skipping already-annotated row 91/24635 (resume)
+2026-08-06 23:42:07,895 [INFO] Skipping already-annotated row 92/24635 (resume)
+2026-08-06 23:42:07,896 [INFO] Skipping already-annotated row 93/24635 (resume)
+2026-08-06 23:42:07,896 [INFO] Skipping already-annotated row 94/24635 (resume)
+2026-08-06 23:42:07,897 [INFO] Skipping already-annotated row 95/24635 (resume)
+2026-08-06 23:42:07,897 [INFO] Skipping already-annotated row 96/24635 (resume)
+2026-08-06 23:42:07,898 [INFO] Skipping already-annotated row 97/24635 (resume)
+2026-08-06 23:42:07,898 [INFO] Skipping already-annotated row 98/24635 (resume)
+2026-08-06 23:42:07,898 [INFO] Skipping already-annotated row 99/24635 (resume)
+2026-08-06 23:42:07,899 [INFO] Skipping already-annotated row 100/24635 (resume)
+2026-08-06 23:42:07,899 [INFO] Annotating 101/24635 (row index 100)
+2026-08-06 23:42:08,432 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:42:08,526 [INFO] Annotating 102/24635 (row index 101)
+2026-08-06 23:42:08,739 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:42:08,763 [INFO] Annotating 103/24635 (row index 102)
+2026-08-06 23:42:09,077 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:42:09,083 [INFO] Annotating 104/24635 (row index 103)
+2026-08-06 23:42:09,441 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:42:09,445 [INFO] Annotating 105/24635 (row index 104)
+2026-08-06 23:42:09,760 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:42:09,765 [INFO] Annotating 106/24635 (row index 105)
+2026-08-06 23:42:10,110 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:42:10,111 [INFO] Annotating 107/24635 (row index 106)
+2026-08-06 23:43:20,207 [INFO] Skipping already-annotated row 1/24635 (resume)
+2026-08-06 23:43:20,208 [INFO] Skipping already-annotated row 2/24635 (resume)
+2026-08-06 23:43:20,208 [INFO] Skipping already-annotated row 3/24635 (resume)
+2026-08-06 23:43:20,208 [INFO] Skipping already-annotated row 4/24635 (resume)
+2026-08-06 23:43:20,209 [INFO] Skipping already-annotated row 5/24635 (resume)
+2026-08-06 23:43:20,209 [INFO] Skipping already-annotated row 6/24635 (resume)
+2026-08-06 23:43:20,209 [INFO] Skipping already-annotated row 7/24635 (resume)
+2026-08-06 23:43:20,209 [INFO] Skipping already-annotated row 8/24635 (resume)
+2026-08-06 23:43:20,210 [INFO] Skipping already-annotated row 9/24635 (resume)
+2026-08-06 23:43:20,210 [INFO] Skipping already-annotated row 10/24635 (resume)
+2026-08-06 23:43:20,210 [INFO] Skipping already-annotated row 11/24635 (resume)
+2026-08-06 23:43:20,210 [INFO] Skipping already-annotated row 12/24635 (resume)
+2026-08-06 23:43:20,211 [INFO] Skipping already-annotated row 13/24635 (resume)
+2026-08-06 23:43:20,211 [INFO] Skipping already-annotated row 14/24635 (resume)
+2026-08-06 23:43:20,211 [INFO] Skipping already-annotated row 15/24635 (resume)
+2026-08-06 23:43:20,211 [INFO] Skipping already-annotated row 16/24635 (resume)
+2026-08-06 23:43:20,213 [INFO] Skipping already-annotated row 17/24635 (resume)
+2026-08-06 23:43:20,214 [INFO] Skipping already-annotated row 18/24635 (resume)
+2026-08-06 23:43:20,214 [INFO] Skipping already-annotated row 19/24635 (resume)
+2026-08-06 23:43:20,214 [INFO] Skipping already-annotated row 20/24635 (resume)
+2026-08-06 23:43:20,215 [INFO] Skipping already-annotated row 21/24635 (resume)
+2026-08-06 23:43:20,215 [INFO] Skipping already-annotated row 22/24635 (resume)
+2026-08-06 23:43:20,215 [INFO] Skipping already-annotated row 23/24635 (resume)
+2026-08-06 23:43:20,216 [INFO] Skipping already-annotated row 24/24635 (resume)
+2026-08-06 23:43:20,216 [INFO] Skipping already-annotated row 25/24635 (resume)
+2026-08-06 23:43:20,216 [INFO] Skipping already-annotated row 26/24635 (resume)
+2026-08-06 23:43:20,217 [INFO] Skipping already-annotated row 27/24635 (resume)
+2026-08-06 23:43:20,217 [INFO] Skipping already-annotated row 28/24635 (resume)
+2026-08-06 23:43:20,218 [INFO] Skipping already-annotated row 29/24635 (resume)
+2026-08-06 23:43:20,218 [INFO] Skipping already-annotated row 30/24635 (resume)
+2026-08-06 23:43:20,219 [INFO] Skipping already-annotated row 31/24635 (resume)
+2026-08-06 23:43:20,219 [INFO] Skipping already-annotated row 32/24635 (resume)
+2026-08-06 23:43:20,220 [INFO] Skipping already-annotated row 33/24635 (resume)
+2026-08-06 23:43:20,220 [INFO] Skipping already-annotated row 34/24635 (resume)
+2026-08-06 23:43:20,221 [INFO] Skipping already-annotated row 35/24635 (resume)
+2026-08-06 23:43:20,221 [INFO] Skipping already-annotated row 36/24635 (resume)
+2026-08-06 23:43:20,222 [INFO] Skipping already-annotated row 37/24635 (resume)
+2026-08-06 23:43:20,223 [INFO] Skipping already-annotated row 38/24635 (resume)
+2026-08-06 23:43:20,224 [INFO] Skipping already-annotated row 39/24635 (resume)
+2026-08-06 23:43:20,224 [INFO] Skipping already-annotated row 40/24635 (resume)
+2026-08-06 23:43:20,224 [INFO] Skipping already-annotated row 41/24635 (resume)
+2026-08-06 23:43:20,225 [INFO] Skipping already-annotated row 42/24635 (resume)
+2026-08-06 23:43:20,225 [INFO] Skipping already-annotated row 43/24635 (resume)
+2026-08-06 23:43:20,225 [INFO] Skipping already-annotated row 44/24635 (resume)
+2026-08-06 23:43:20,226 [INFO] Skipping already-annotated row 45/24635 (resume)
+2026-08-06 23:43:20,227 [INFO] Skipping already-annotated row 46/24635 (resume)
+2026-08-06 23:43:20,227 [INFO] Skipping already-annotated row 47/24635 (resume)
+2026-08-06 23:43:20,228 [INFO] Skipping already-annotated row 48/24635 (resume)
+2026-08-06 23:43:20,228 [INFO] Skipping already-annotated row 49/24635 (resume)
+2026-08-06 23:43:20,228 [INFO] Skipping already-annotated row 50/24635 (resume)
+2026-08-06 23:43:20,229 [INFO] Skipping already-annotated row 51/24635 (resume)
+2026-08-06 23:43:20,229 [INFO] Skipping already-annotated row 52/24635 (resume)
+2026-08-06 23:43:20,229 [INFO] Skipping already-annotated row 53/24635 (resume)
+2026-08-06 23:43:20,230 [INFO] Skipping already-annotated row 54/24635 (resume)
+2026-08-06 23:43:20,230 [INFO] Skipping already-annotated row 55/24635 (resume)
+2026-08-06 23:43:20,230 [INFO] Skipping already-annotated row 56/24635 (resume)
+2026-08-06 23:43:20,231 [INFO] Skipping already-annotated row 57/24635 (resume)
+2026-08-06 23:43:20,231 [INFO] Skipping already-annotated row 58/24635 (resume)
+2026-08-06 23:43:20,231 [INFO] Skipping already-annotated row 59/24635 (resume)
+2026-08-06 23:43:20,231 [INFO] Skipping already-annotated row 60/24635 (resume)
+2026-08-06 23:43:20,232 [INFO] Skipping already-annotated row 61/24635 (resume)
+2026-08-06 23:43:20,232 [INFO] Skipping already-annotated row 62/24635 (resume)
+2026-08-06 23:43:20,232 [INFO] Skipping already-annotated row 63/24635 (resume)
+2026-08-06 23:43:20,233 [INFO] Skipping already-annotated row 64/24635 (resume)
+2026-08-06 23:43:20,233 [INFO] Skipping already-annotated row 65/24635 (resume)
+2026-08-06 23:43:20,233 [INFO] Skipping already-annotated row 66/24635 (resume)
+2026-08-06 23:43:20,233 [INFO] Skipping already-annotated row 67/24635 (resume)
+2026-08-06 23:43:20,234 [INFO] Skipping already-annotated row 68/24635 (resume)
+2026-08-06 23:43:20,234 [INFO] Skipping already-annotated row 69/24635 (resume)
+2026-08-06 23:43:20,234 [INFO] Skipping already-annotated row 70/24635 (resume)
+2026-08-06 23:43:20,235 [INFO] Skipping already-annotated row 71/24635 (resume)
+2026-08-06 23:43:20,236 [INFO] Skipping already-annotated row 72/24635 (resume)
+2026-08-06 23:43:20,237 [INFO] Skipping already-annotated row 73/24635 (resume)
+2026-08-06 23:43:20,237 [INFO] Skipping already-annotated row 74/24635 (resume)
+2026-08-06 23:43:20,238 [INFO] Skipping already-annotated row 75/24635 (resume)
+2026-08-06 23:43:20,238 [INFO] Skipping already-annotated row 76/24635 (resume)
+2026-08-06 23:43:20,238 [INFO] Skipping already-annotated row 77/24635 (resume)
+2026-08-06 23:43:20,239 [INFO] Skipping already-annotated row 78/24635 (resume)
+2026-08-06 23:43:20,239 [INFO] Skipping already-annotated row 79/24635 (resume)
+2026-08-06 23:43:20,240 [INFO] Skipping already-annotated row 80/24635 (resume)
+2026-08-06 23:43:20,241 [INFO] Skipping already-annotated row 81/24635 (resume)
+2026-08-06 23:43:20,241 [INFO] Skipping already-annotated row 82/24635 (resume)
+2026-08-06 23:43:20,242 [INFO] Skipping already-annotated row 83/24635 (resume)
+2026-08-06 23:43:20,242 [INFO] Skipping already-annotated row 84/24635 (resume)
+2026-08-06 23:43:20,242 [INFO] Skipping already-annotated row 85/24635 (resume)
+2026-08-06 23:43:20,243 [INFO] Skipping already-annotated row 86/24635 (resume)
+2026-08-06 23:43:20,243 [INFO] Skipping already-annotated row 87/24635 (resume)
+2026-08-06 23:43:20,243 [INFO] Skipping already-annotated row 88/24635 (resume)
+2026-08-06 23:43:20,244 [INFO] Skipping already-annotated row 89/24635 (resume)
+2026-08-06 23:43:20,244 [INFO] Skipping already-annotated row 90/24635 (resume)
+2026-08-06 23:43:20,244 [INFO] Skipping already-annotated row 91/24635 (resume)
+2026-08-06 23:43:20,245 [INFO] Skipping already-annotated row 92/24635 (resume)
+2026-08-06 23:43:20,245 [INFO] Skipping already-annotated row 93/24635 (resume)
+2026-08-06 23:43:20,245 [INFO] Skipping already-annotated row 94/24635 (resume)
+2026-08-06 23:43:20,245 [INFO] Skipping already-annotated row 95/24635 (resume)
+2026-08-06 23:43:20,246 [INFO] Skipping already-annotated row 96/24635 (resume)
+2026-08-06 23:43:20,246 [INFO] Skipping already-annotated row 97/24635 (resume)
+2026-08-06 23:43:20,246 [INFO] Skipping already-annotated row 98/24635 (resume)
+2026-08-06 23:43:20,246 [INFO] Skipping already-annotated row 99/24635 (resume)
+2026-08-06 23:43:20,247 [INFO] Skipping already-annotated row 100/24635 (resume)
+2026-08-06 23:43:20,247 [INFO] Annotating 101/24635 (row index 100)
+2026-08-06 23:43:20,753 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:43:20,854 [INFO] Annotating 102/24635 (row index 101)
+2026-08-06 23:43:21,172 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:43:21,174 [INFO] Annotating 103/24635 (row index 102)
+2026-08-06 23:43:21,520 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:43:21,523 [INFO] Annotating 104/24635 (row index 103)
+2026-08-06 23:43:21,577 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:43:21,579 [INFO] Retrying request to /openai/v1/chat/completions in 26.000000 seconds
+2026-08-06 23:43:48,023 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-06 23:43:48,035 [INFO] Annotating 105/24635 (row index 104)
+2026-08-06 23:43:48,098 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:43:48,100 [WARNING] Attempt 1/3 failed for ticket 'how could icancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 100000, Requested 911. Please try again in 13m7.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:43:50,189 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:43:50,189 [WARNING] Attempt 2/3 failed for ticket 'how could icancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99998, Requested 944. Please try again in 13m33.887999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:43:54,266 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:43:54,267 [WARNING] Attempt 3/3 failed for ticket 'how could icancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99993, Requested 977. Please try again in 13m58.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:00,268 [ERROR] All retries exhausted for ticket 'how could icancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99993, Requested 977. Please try again in 13m58.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:00,269 [ERROR] Skipping row 104 after annotate() failure.
+2026-08-06 23:44:00,271 [INFO] Annotating 106/24635 (row index 105)
+2026-08-06 23:44:00,496 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:00,497 [WARNING] Attempt 1/3 failed for ticket 'i need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99986, Requested 912. Please try again in 12m55.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:02,542 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:02,543 [WARNING] Attempt 2/3 failed for ticket 'i need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 945. Please try again in 13m22.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:06,641 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:06,643 [WARNING] Attempt 3/3 failed for ticket 'i need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99979, Requested 978. Please try again in 13m46.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:12,644 [ERROR] All retries exhausted for ticket 'i need assistance canceling order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99979, Requested 978. Please try again in 13m46.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:12,645 [ERROR] Skipping row 105 after annotate() failure.
+2026-08-06 23:44:12,647 [INFO] Annotating 107/24635 (row index 106)
+2026-08-06 23:44:12,789 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:12,789 [WARNING] Attempt 1/3 failed for ticket 'i do not knwo how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99972, Requested 915. Please try again in 12m46.367999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:14,900 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:14,901 [WARNING] Attempt 2/3 failed for ticket 'i do not knwo how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99969, Requested 948. Please try again in 13m12.287999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:18,945 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:18,946 [WARNING] Attempt 3/3 failed for ticket 'i do not knwo how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99965, Requested 981. Please try again in 13m37.343999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:24,947 [ERROR] All retries exhausted for ticket 'i do not knwo how to cancel order {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99965, Requested 981. Please try again in 13m37.343999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:24,948 [ERROR] Skipping row 106 after annotate() failure.
+2026-08-06 23:44:24,950 [INFO] Annotating 108/24635 (row index 107)
+2026-08-06 23:44:25,108 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:25,109 [WARNING] Attempt 1/3 failed for ticket 'I have ordered some article, cancel purchase {{Order Number}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99958, Requested 914. Please try again in 12m33.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:27,157 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:27,158 [WARNING] Attempt 2/3 failed for ticket 'I have ordered some article, cancel purchase {{Order Number}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99955, Requested 947. Please try again in 12m59.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:31,235 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:31,236 [WARNING] Attempt 3/3 failed for ticket 'I have ordered some article, cancel purchase {{Order Number}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99950, Requested 980. Please try again in 13m23.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:37,236 [ERROR] All retries exhausted for ticket 'I have ordered some article, cancel purchase {{Order Number}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99950, Requested 980. Please try again in 13m23.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:37,237 [ERROR] Skipping row 107 after annotate() failure.
+2026-08-06 23:44:37,237 [INFO] Annotating 109/24635 (row index 108)
+2026-08-06 23:44:37,479 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:37,480 [WARNING] Attempt 1/3 failed for ticket 'need to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99943, Requested 910. Please try again in 12m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:39,569 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:39,569 [WARNING] Attempt 2/3 failed for ticket 'need to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99941, Requested 943. Please try again in 12m43.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:43,616 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:43,617 [WARNING] Attempt 3/3 failed for ticket 'need to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99936, Requested 976. Please try again in 13m7.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:49,618 [ERROR] All retries exhausted for ticket 'need to cancel purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99936, Requested 976. Please try again in 13m7.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:49,620 [ERROR] Skipping row 108 after annotate() failure.
+2026-08-06 23:44:49,623 [INFO] Annotating 110/24635 (row index 109)
+2026-08-06 23:44:49,833 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:49,836 [WARNING] Attempt 1/3 failed for ticket 'have problems with canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99929, Requested 912. Please try again in 12m6.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-08-06 23:44:51,894 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-06 23:44:51,895 [WARNING] Attempt 2/3 failed for ticket 'have problems with canceling purchase {{Order Number}}': Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksct09fwf6haymj5z19qac8k` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99927, Requested 945. Please try again in 12m33.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}

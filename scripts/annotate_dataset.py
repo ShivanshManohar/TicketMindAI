@@ -53,7 +53,12 @@ def save_json(path: str, data: list[dict]) -> None:
 
 def main():
     parser = argparse.ArgumentParser(description="Annotate ticket dataset via LLM.")
-    parser.add_argument("--n", type=int, default=100, help="Number of rows to annotate.")
+    parser.add_argument(
+                "--n",
+                type=int,
+                default=None,
+                help="Number of rows to annotate. Leave empty to process the entire dataset."
+            )
     parser.add_argument("--start", type=int, default=0, help="Row index to start from.")
     parser.add_argument(
         "--resume", action="store_true",
@@ -62,10 +67,17 @@ def main():
     args = parser.parse_args()
 
     df = pd.read_csv(DATA_PATH)
-    subset = df.iloc[args.start: args.start + args.n]
+    if args.n is None:
+        subset = df.iloc[args.start:]
+    else:
+        subset = df.iloc[args.start: args.start + args.n]
 
     results = load_existing_results(OUTPUT_PATH) if args.resume else []
-    already_done = {r["input"] for r in results if r.get("input")}
+    already_done = {
+        (r["input"], r["category"], r["subcategory"])
+        for r in results
+        if r.get("input")
+    }
 
     failures = load_existing_results(FAILURES_PATH) if args.resume else []
 
@@ -75,7 +87,11 @@ def main():
     for i, (idx, row) in enumerate(subset.iterrows(), start=1):
         ticket_input = row["input"]
 
-        if args.resume and ticket_input in already_done:
+        if args.resume and (
+                ticket_input,
+                row["category"],
+                row["subcategory"]
+            ) in already_done:
             logger.info("Skipping already-annotated row %d/%d (resume)", i, total)
             continue
 
