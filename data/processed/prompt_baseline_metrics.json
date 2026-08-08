@@ -1,0 +1,26 @@
+{
+  "samples": 540,
+  "category": {
+    "accuracy": 0.9740740740740741,
+    "macro_precision": 0.9762232716778171,
+    "macro_recall": 0.9708333333333333,
+    "macro_f1": 0.9715514867596181,
+    "exact_match": 0.9740740740740741
+  },
+  "subcategory": {
+    "accuracy": 0.9481481481481482,
+    "macro_precision": 0.9536763913639074,
+    "macro_recall": 0.9481481481481482,
+    "macro_f1": 0.9480430550957597,
+    "exact_match": 0.9481481481481482
+  },
+  "priority": {
+    "accuracy": 0.387037037037037,
+    "macro_precision": 0.2176386170906719,
+    "macro_recall": 0.36527777777777776,
+    "macro_f1": 0.2711391994814455,
+    "exact_match": 0.387037037037037
+  },
+  "evaluation_time_seconds": 0.21941289999813307,
+  "model": "Gemini 3.5 Flash-Lite Prompt Engineering"
+}

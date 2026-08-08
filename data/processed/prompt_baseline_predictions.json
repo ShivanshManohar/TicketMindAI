@@ -1,0 +1,4862 @@
+[
+  {
+    "input": "where to lodge a complaint against your business?",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I'm trying to restore the pwd of my user",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "subscribing to newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have errors signing up",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I am waiting for a refund of {{Currency Symbol}}{{Refund Amount}}, was it processed",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where can i get information about lost pin",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know what I need to do to get bill #85632",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where do I report an error with online payment?",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need help to acquire a product",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how do I see the allowed payment methods?",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know how to create a platinum account for my dad",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do i need to do to switch to the freemium account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me to notify of an error with payment?",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need assistance retsoring the fucking key of my user",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how to check bill #85632?",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could you show me what shipping options are there?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance to modify my address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how to use the standard profile?",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me cancelling the subscription to the newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "update {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where can i see the ETA of purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "assistance to see the shipping methods",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help downloading the invoice #00108",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need help speaking to somebody",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I'm waiting for a reimbursement of 299dollars",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where to create a standard account for my dad",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me checking what shipment methods I have?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me acquire some products",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "create pro cacount",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "what do I ned to do to cancel order {{Order Number}}?",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "wanna check the status of purchase {{Order Number}} how to do it",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do I have to do to chat with an agent?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want assistance to send feedback for ur company",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I expect a refund of {{Currency Symbol}}{{Refund Amount}}, has it been processed?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you help me acquiring a few of your product?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can ya help me subscribing to ur company newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want assistance solving a problem with online payments",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I am trying to retrieve the PIN of my user profile",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I see what delivery options are there?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I have to do to see my bill #00108",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "ohw can i add some items to order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I have to do to update my delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I see at what time customer service available is?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "whzt do i need to do to ask for reimbursements of money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "ohw to contact a person?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to recover my profile access key?",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me see purchase {{Order Number}} current status?",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me check the accepted payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "cancel the subscription to the newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i dont know what i need to do to remove my standard account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance to file a reclamation against your company",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "there is a trouble submitting a secondary shipping address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where can I modify my delivery address?",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want assistance to open a {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to cancel my subscription to your newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "wanna add some articles to order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want assistance using the {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i do not know how i could obtaain compensations",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to see the ETA of the purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me to see at what time I can reach customer assistance",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to write a review about your company, how do I do it?",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "assistance to cancel order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "could you help me retrieving my user profile PIN code?",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me to unsubscribe from ur corporate newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I can't reset my account access key",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can I edit my delivery address?",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want assistance checking my refund current status",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need assiwtance seeing the ETA of the order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where could I take a quick look at invokce #37777?",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have got to see the early termination charges",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need assistance restoring the key of my profile",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how doi see at what time i can reach customer support",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to swap an item of order {{Order Number}}, help me",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have to see how long it takes for my product to arrive",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I cannot retrieve my account key",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want help senxing feedback for ur services",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have problems with my key recovery",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "is it possible to file a customer complaint?",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help to check when will my article arrive",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i do not know how i can report a sign-up error",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have got to see what delivery methods you offer",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have a problem with the removal opf my standard account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how can I notify of an error with goddamn sign-up?",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know what to do to contact a damn operator",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do i need to do to create a platinum account for my dad",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have problems with opening a {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i expect a reimbursement of {{Refund Amount}} dollars",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I would like information about {{Account Category}} account deletions",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to order a few of your item, can I get some help?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "reporting issue opening user profile",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "would it be possible to notify of a fucking signup error?",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "could I check at what time I can call customer service?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i lost the bills from {{Person Name}} show them to me",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I'm trying to se the withdrawal fees",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "order 732201349959current status",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "ned help to see the early termination penalties",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help to check in what situations can i ask for refunds",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "wanna know more about creating {{Account Category}} accounts",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I download the invoice from {{Person Name}}?",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me requesting reimbursements of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "opening {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need assistance with canceling order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "cancelling standard account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need supports correcting the shipping address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you help me speak to customer assistance?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could I edit my personal information?",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want assistance to notify of a signup error",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want assistance to notify of an issue with payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where to check what shipping methods are there?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I would like to leave a comment for your company, help me",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want assistance unsubscribing to the newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need help to check what payment methods are available",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to receive a reimbursement of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need assistance to buy some articles",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i have got to write an opinion for a service",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "cancel purchase00004587345",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i have to enter the secondary shipping dadress i need help",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want help to solve errors with payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want help cancelling order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "file complaint",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to unsubscribe from the company newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to edit my delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "help me to see the payment options",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help restoring the access key of my user",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need help listing the bloody payment methods",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have to change an item of purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want to purchase several of your article, how do I do it?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have got to earn several items, how can I do it?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need help checking whay hours I can reach customer support",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help leaving a comment aout a product",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want assistance to check the cancellation charge",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know how I can see your payment methods",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to see when will my item arrive, how to do it?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "speak with agent",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to check when will my parcel arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help seeing what payment options are allowed",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need help to  enter my delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where do I check the reimbursement current status?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to see when will my article arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need help downloading the bill #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "assistance seeing in what casew can i ask to be refunded",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "open a gold account for my dad",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me to locate order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "correcting info on standard aqccount",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can ya help me seeing how long the delivery takes",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want help to demand a restitution of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "show me in which cases can I request a refund",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "give me information about cancel the newsletter subscription",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have got to set my shipping address up, how can I do it?",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want information about the deletion of my gold accounnt",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "see the bills from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have to update the data on my user how do i do it",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "assistance to see in what cases can I request refunds",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "do you have a section to leave a comment for your company?",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help to see your refund policy",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i cant add an article to order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have to see at what time I can reach customer assistance",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help to see the termination charge",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to find my bill from {{Person Name}}?",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can ya help me to see the ETA of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where can i find information about a {{Account Type}} account deletion",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how could I change to the goddamn {{Account Category}} account?",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how do I list the allowed payment methods?",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need assistance checking my compensation current status",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want to see the fucking ETA of the order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "update personal data",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have to delete an product from order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "give me information about the deletion of my Freemiumaccount",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I would like to create a freemium account for my dad",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do i have to do to obtain my money back",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help restoring my PIN code",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am unhappy with your work, I want to file a consumer claim",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "problems changing delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you help me setting my delivery address up?",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "when am i getting a reimbursement",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want help to inform of a sign-up problem",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have to see what shipping methods I have, can you help me?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "get bill #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help removing the pro account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "help me take a quick look at my bills from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I need to do to download my invoice #85632",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have a problem trying to correct the shipping address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need a {{Account Type}} account could i openm it",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "switch to thepremium account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "editting details on gold account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need hedlp filing a consumer claim",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need help cancelling order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "help me to open a premium account for my daughter",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to edit my account, how could I do it?",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "listing available payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "open pro account",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i cant makr a transfer help me report a payment error",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have got to make a customer claim against your business",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have to recover my avcount pin code",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how can I set my new shipping address up?",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need assistance to change to the {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where coujld I order several of your product?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance to download my invoice #12588",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "what do I have to do to cancel a premium account?",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have got to receive your newsletter, can you help me?",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can ya help me get reimbursements",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "delete gold account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I open a {{Account Type}} account for my daughter?",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to see the methods for shipment, I need assistance",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I try to set up my delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "assistance using the platinum account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I do not know what I have to do to delete a standard account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know how to contact cutomer support",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "problems setting a new delivery address up",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i hav to change to the premium account help me",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want assistance switching to the {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I lost the bill from {{Person Name}}, mail it to me",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I call to check how long it takes for my parcel to  arrive",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i dont know what to do to chat with an agent",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me lodging a customer complaint against your business",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want assistance to make a customer reclamation",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i dont know what i have to do to talk with customer service",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am trying to check what shipping methods are available",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where do i notify of a problem with online payments",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where can I check your reimbursement policy?",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to file a customer claim, how do I do it?",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I lost the bill #12588, mail it to me",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where can I iinform of errors with online payment?",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to cancel my company newsletter subscription, help me",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need help to call damn customer support",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need help notifying of an error with payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "assistance retrieving the access key of my user account",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where to download my bills from {{Person Name}}?",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I try to lodge a consumer claim against your company",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance talking to a live agent",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need help checking what shipping options are available",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have a problem submitting a different delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want help solving issues with online payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I don't know what I have to do to report payment problems",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to see the options for shipping",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am trying to notify of issues with registrations",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where can I change to the {{Account Type}} account?",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how can I switch an item of order {{Order Number}}?",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I try to see at what time I can reach customer support",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "report registration issues",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want help talking with customer support",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to look for the bills from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am trying to see how long refunds usually take",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have paid {{Currency Symbol}}{{Refund Amount}} for these order help me receiving a refund",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how do I list the allowed payment options?",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i do not know what to do to notify of a sign-up issue",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "what do i need to do to change to the gold account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to speak to someone",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help chatting with an operator",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to see what delivery options I have?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help deleting several articles from  purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need to reocver my pass",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me to earn some of your product?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to leave some feedback for a product, I need help",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want assistance to enter a new delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want help to switch to the {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need assistance withcanceling purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where can I acquire some products?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need help seeing ur payment methods",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help asking for reimbursements",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have to see in what cases can I request refunds, help me",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to locate my bill #85632, I need help",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me seethe ETA of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could you show me in which cases can I ask for a refund?",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what to do to cancel purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I never use my premium account, can I cancel it?",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i want assistance seeing the withdrawal penalties",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can ya help me to leave a review about a esrvice",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have problems setting a new delivery address up",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "correcting details on gold account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i do not know how i could switch tto the standard account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i dont know what i need to do to download my inovice #00108",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want assistance earning some products",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I need to do to check the invoice #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "available payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "do you have a free number to talk with customer service?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need help to check bill #12588",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need help ot check in what cases can I ask for refunds",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I try to close my premium account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "wanna order a few of ur article",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how can i see what shipment methods i have",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know what I need to do to download my bill #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I have to do to call customer service",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help seeing in what cases can I ask for reimbursements",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need to see at what time customer assistance available is",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how can I get refunds?",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "tell me more about updating the delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know how to see the withdrawal charges",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do i need to do to report troubles with online payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want support with my sign-up",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have to talk with customer assistance, how can I do it?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me to file a customer reclamation?",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need help cancelling purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I am trying to inform of errors with registrations",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i dont know how to see ur goddamn money back guarantee",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do I need to do to download my invoice #12588?",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance to list the allowed payment methods",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I cannot find the termination fees, I need assistance",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am calling to check what delivery methods are available",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how do I see how long it takes for my bloody item to arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is there a section to leave a comment for a product?",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to edit order {{Order Number}}, help me",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have a problem trying to edit my shipping address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want assistance seeing the damn reimbursement status",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can uhelp me swap an item of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need help to check in which case can i ask to be refunded",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I can't afford order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how much would ucharge me for breaking the contract",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I'd like information about changing order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to file a claim, how could I do it?",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could you help me check the status of my restitution?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to see how soon can I expect the order, how to do it?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I'd like tro check the withdrawal fees",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to set my delivery address up, I need assistance",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need help to edit purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i want help trying to modify my delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "reporting issues with payments",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "give me information about changing my address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where to see the payment methods?",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i cant swap an item of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how to get the invoices from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I can't make a payment, inform of an error with payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want help locating order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need to swap some items of purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I don't know how I can change to the gold account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "contact person",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need help acquiring some prdoucts",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need help checking the ETA of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i have got to locate order {{Order Number}} how can i do it",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "question about canceling purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where do I see what hours customer assistance available is?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want assistance to check your allowed payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what to do to file a claim against your company",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to know about a bloody shipping address modification",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do I have to do to check your rfund policy?",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know how to speak with an assistan",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "Iwant assistance canceling order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can ya help me seeing the bloody early exit fee",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "shipments to {{Delivery City}}",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is there an e-mail to send an opinion about your products?",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how do I make  a complaint against your business?",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "wantassistance to change to the {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I cannot find anything about the early exit charges",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want help listing ur available payment methods",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I need to do to file a customer claim",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need help to request rebates of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I don't know how I can receive the newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need help seeing the early termination fees",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know how to unsubscribe from your newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need help to getthe invoices from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I expect a compendation of {{Currency Symbol}}{{Refund Amount}}",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "the shipping address is not valid",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "help using the {{Account Type}} profile",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you help me cancel my newsletter subscription?",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where to see the ETA of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me to check the withdrawal charges",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I get an error when I try to make a payment, inform of it",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can ya help me updating the details included on my account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want assistance setting my delivery address up",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "problem with the pass recovery",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where can I download the invoice #37777?",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could ya help me infofming of a sign-up issue",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I'm trying to write a review for ur company",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want assistance to see what shipping options are available",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I try to see in what situations can I request to be refunded",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "tell me what hours i can contact customer sasistance",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "open a standard account",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i dont know what i have to do to close my gold account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i want assistance to close the {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want  assistance chatting with somebody",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "do you have a free phone no to speak with customer service?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i dont know how to receive a refund of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want assistance seeing the fucking ETA of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "my experience with you was awful, lodge a bloody claim",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want help to notify of problems with a sign-up",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "change data on freemium account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need assistance writing a review for ur products",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could uhelp me report a trouble with online payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "is it possible to acquire an article?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want assistance to see the fucking status of the rebate",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need assistance to chat with a person",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me see how long refunds take?",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to edit the personal information",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "trouble modifying delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "see how long refunds usually take",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me to check how soon can I expect the parcel",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know how I can download my invoice #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how do i shop an item",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I call to send some  feedback about a service",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could you help me get compensations of my money?",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i need a {{Account Category}} account create it",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i call to submit some feedback for ur services",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could you tell me about changing my delivery address?",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me using the platinum profile?",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i want help to file a consumer claim against ur organization",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I know if there is anything new on the restitution?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need assistance seeing how soon can i expect the delivery",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me check the status of my reimbursement",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I cannot talk to somebody",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where do i report an issue with a registration",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I get my bills from {{Person Name}}?",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me see when my article is goong to arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I restore my user pwd?",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "changing detais on {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have a question about the deletion of my {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "checking invoices from 9 months ago",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I would like to correct order {{Order Number}}, will you help me?",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "help seeing when will my package arrive",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where do I change my address?",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "cancelin {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need to check if there are any updates on my reimbursement",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know how to make a claim against your organization",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need assistance to give a quick look at invoice #12588",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me see the ETA of purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "canuhelp me to get the bills from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what to do to talk with an operator",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "will you show me the accepted payment options?",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where to see the status of my rebate",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "would it be possible to check the early termination charge?",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I cannot remember my user account password, help me reset it",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to see the cancellation fee, can you help me?",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how could I see the early termination penalty?",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how can i receive the newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me to open a freemium account?",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i dont know how i can add several items to purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how to shop several of you article?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I can't remember my account password, where to reset it?",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I nee assistance to cancel purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I do not know how I can create a {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "contact customer service",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Customer Service",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance editing the information on my user",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "check estimated time of arrival of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to submit a shipping address, can I get some help?",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "how can i obtain a compensation of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i try to check how long the shipment atkes",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i do not know how to report a trouble with online payments",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i do not know how to look for the invoice #85632",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "there are issues modifying my address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where could I see if there is anything new on my refund?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to correct purchase {{Order Number}}, can you help me?",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I need to file a customer complaint against your company",
+    "true_category": "Feedback",
+    "true_subcategory": "Complaint",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Complaint",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to know moreabout the delivery period",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "could utell me about the shipping periods",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "mail em the bill #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Get Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "what do I need to do to set my shipping address up?",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I havegot to leave a review for your company",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me sign up to the newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have troubles submittng the shipping address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can ya help me cancel order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "is it possible top order several items?",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "look for my invoices from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Get Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i have an issue submitting the new delivery address",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where to see how long it takes for the item to arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me speaking to a live agent",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "modifying info on premium account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to check when my product is going to arrive",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need help to inform of troubls with payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have a problem with the shipment options",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "need help to cancel purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "want help to send my feedback for your rpoducts",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help using the bloody freemium profile",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Customer Service",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "modify information on {{Account Category}} account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help to list ru payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to create a {{Account Category}} account, I need assistance",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you tell me about correcting the address?",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what to do to shop some goddamn items",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "editing details on standard account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want assistance notifying of errors with payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "where do i report an error with sign-up",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can I see when will my article arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "assistance to delete my pro account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "wanna check in wshat situations can i ask for a refund",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "checking bill #37777",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance to see your refund policy",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need help requesting a compensation of money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I would loike to obtain damn refunds of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want to locate order {{Order Number}}, could I get some help?",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I try to report a sign-up problem",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i have got to change purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you tell me about the subscription to your newsletter?",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "update standard account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can uhelp me to shop some items",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "seeingbill from {{Person Name}}",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i need help to leave some feedback about ur services",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can i create a {{Account Category}} account for my fiance",
+    "true_category": "Account",
+    "true_subcategory": "Create Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Create Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know how to cancel purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need to report an issue with a registration",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i have got to see ur accepted payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to find bill #00108?",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "you aren't helpful at all, will you direct to me an agent?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how to add an item to order {{Order Number}}?",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how to unsubscribe from your company newsletter?",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what I need to do to check the early exit fee",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "cance order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I have errors trying to pudate my shipping address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can i unsubscribe from ur corporate newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i bought somegoddamn item how do i cancel order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to send my feedback for a product",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "correcting info on platinum account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i cant see the status of order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "change details on standard account",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am trying to submit my secondary delivery addrerss",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want help talking with a person",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can ya help me to demand an refund",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want to see the goddamn shipment methods, how to do it?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to sign up to your corporate newsletter",
+    "true_category": "Subscription",
+    "true_subcategory": "Newsletter Subscription",
+    "true_priority": "Low",
+    "pred_category": "Subscription",
+    "pred_subcategory": "Newsletter Subscription",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "how to see the status of my restitution",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "can you help me see what options for delivery I have?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help checking my restitution status",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I don't know what to do to contact a live agent",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to set up a secondary delivery address, how to do it?",
+    "true_category": "Shipping",
+    "true_subcategory": "Set Up Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Set Up Shipping Address",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need to update my account can i get some help",
+    "true_category": "Account",
+    "true_subcategory": "Edit Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Edit Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can you help me check if there are any news on my refund?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I have to write an opinion, can I get some help?",
+    "true_category": "Feedback",
+    "true_subcategory": "Review",
+    "true_priority": "Low",
+    "pred_category": "Feedback",
+    "pred_subcategory": "Review",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I need assistance to remove my {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i dont know how to cancel order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "want help to request a compensation of my money",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "you are not helpful, can I speak with a person?",
+    "true_category": "Contact",
+    "true_subcategory": "Contact Human Agent",
+    "true_priority": "Low",
+    "pred_category": "Contact",
+    "pred_subcategory": "Contact Human Agent",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "check invoice",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to order from {{Delivery City}}?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Options",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Options",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "i do not know how to check the allowed payment modalities",
+    "true_category": "Payment",
+    "true_subcategory": "Check Payment Methods",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Check Payment Methods",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "help me notifying of a problem with online payment",
+    "true_category": "Payment",
+    "true_subcategory": "Payment Issue",
+    "true_priority": "High",
+    "pred_category": "Payment",
+    "pred_subcategory": "Payment Issue",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I want support modifying the address",
+    "true_category": "Shipping",
+    "true_subcategory": "Change Shipping Address",
+    "true_priority": "Medium",
+    "pred_category": "Shipping",
+    "pred_subcategory": "Change Shipping Address",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I don't know what to do to earn some of your item",
+    "true_category": "Order",
+    "true_subcategory": "Place Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Place Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "need ot cancel purchase {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Cancel Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Cancel Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "i dont know how i can check the cancellation fee",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I do not know what to do to inform of problems with signup",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "wanna see purchase {{Order Number}} current status",
+    "true_category": "Order",
+    "true_subcategory": "Track Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Track Order",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I am experiencing an issue trying to sign up",
+    "true_category": "Account",
+    "true_subcategory": "Registration Problems",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Registration Problems",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I am trying to obtain a reimbursement",
+    "true_category": "Refund",
+    "true_subcategory": "Get Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Get Refund",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "help me adding some products to order {{Order Number}}",
+    "true_category": "Order",
+    "true_subcategory": "Change Order",
+    "true_priority": "Low",
+    "pred_category": "Order",
+    "pred_subcategory": "Change Order",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "were can I see how long it takes for my package to arrive?",
+    "true_category": "Delivery",
+    "true_subcategory": "Delivery Period",
+    "true_priority": "Medium",
+    "pred_category": "Delivery",
+    "pred_subcategory": "Delivery Period",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "where can I know if there is anything new on the refund?",
+    "true_category": "Refund",
+    "true_subcategory": "Track Refund",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Track Refund",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it posdible to check the early termination penalty?",
+    "true_category": "Cancel",
+    "true_subcategory": "Check Cancellation Fee",
+    "true_priority": "Low",
+    "pred_category": "Cancel",
+    "pred_subcategory": "Check Cancellation Fee",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want help canceling the {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Delete Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Delete Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "I don't know what to do to retrieve the PIN code of my user",
+    "true_category": "Account",
+    "true_subcategory": "Recover Password",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Recover Password",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "changkng to {{Account Type}} account",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "MEDIUM"
+  },
+  {
+    "input": "can uhelp me take a quick look at my invoice #00108",
+    "true_category": "Invoice",
+    "true_subcategory": "Check Invoice",
+    "true_priority": "Low",
+    "pred_category": "Invoice",
+    "pred_subcategory": "Check Invoice",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "I want to check your reimbursement policy",
+    "true_category": "Refund",
+    "true_subcategory": "Check Refund Policy",
+    "true_priority": "High",
+    "pred_category": "Refund",
+    "pred_subcategory": "Check Refund Policy",
+    "pred_priority": "LOW"
+  },
+  {
+    "input": "is it possible to use the {{Account Type}} profile",
+    "true_category": "Account",
+    "true_subcategory": "Switch Account",
+    "true_priority": "High",
+    "pred_category": "Account",
+    "pred_subcategory": "Switch Account",
+    "pred_priority": "LOW"
+  }
+]
