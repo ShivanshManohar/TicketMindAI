@@ -398,7 +398,7 @@ Both approaches are evaluated against the same benchmark.
 ```text
                            Accuracy
                               │
-Prompt Engineering           │ ███████                 34.70%
+Prompt Engineering            │ ███████                34.70%
                               │
 QLoRA Fine-Tuning             │ ████████████████████   98.56%
                               │
